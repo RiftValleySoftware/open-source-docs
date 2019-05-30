@@ -1,0 +1,117 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 11,
+      "symbol": "SwipeAnimationTypeProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 12,
+      "symbol": "SwipeAnimationTypeProtocol.addTo(containerView:fromView:toView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 13,
+      "symbol": "SwipeAnimationTypeProtocol.prepare(fromView:toView:direction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 14,
+      "symbol": "SwipeAnimationTypeProtocol.animation(fromView:toView:direction:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 23,
+      "symbol": "SwipeAnimationType.overlap",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 24,
+      "symbol": "SwipeAnimationType.sideBySide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 25,
+      "symbol": "SwipeAnimationType.push",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeAnimationType.swift",
+      "line": 26,
+      "symbol": "SwipeAnimationType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 24,
+      "symbol": "SwipeableTabBarController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 29,
+      "symbol": "SwipeableTabBarController.init(nibName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 51,
+      "symbol": "SwipeableTabBarController.observeValue(forKeyPath:of:change:context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 102,
+      "symbol": "SwipeableTabBarController.tabBarController(_:animationControllerForTransitionFrom:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 114,
+      "symbol": "SwipeableTabBarController.tabBarController(_:interactionControllerFor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 118,
+      "symbol": "SwipeableTabBarController.tabBarController(_:didSelect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/SwipeableTabBarController.swift",
+      "line": 122,
+      "symbol": "SwipeableTabBarController.tabBarController(_:shouldSelect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara/Main App/SwipeableTabBarController/Classes/UIKit+Extensions.swift",
+      "line": 24,
+      "symbol": "UIViewController.setTabBarSwipe(enabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/cmarshall/Documents/Development/RiftValley/AmbiaMara"
+}
