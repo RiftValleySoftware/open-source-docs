@@ -56,6 +56,9 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/RVS_BasicGCDTimer.html">RVS_BasicGCDTimer</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RVS_BasicGCDTimer/_State.html">– _State</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -91,6 +94,220 @@ You then call <q>resume()</q> on that instance.</p>
 
         <section class="section">
           <div class="section-content">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private%20Enums"></a>
+                <a name="//apple_ref/swift/Section/Private Enums" class="dashAnchor"></a>
+                <a href="#/Private%20Enums">
+                  <h3 class="section-name">Private Enums</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC6_State33_12FB482C52B7FF14778C487883424080LLO"></a>
+                    <a name="//apple_ref/swift/Enum/_State" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC6_State33_12FB482C52B7FF14778C487883424080LLO">_State</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is used to hold state flags for internal use.</p>
+
+                        <a href="../Classes/RVS_BasicGCDTimer/_State.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">enum</span> <span class="n">_State</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private%20Instance%20Properties"></a>
+                <a name="//apple_ref/swift/Section/Private Instance Properties" class="dashAnchor"></a>
+                <a href="#/Private%20Instance%20Properties">
+                  <h3 class="section-name">Private Instance Properties</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC6_state33_12FB482C52B7FF14778C487883424080LLAB6_StateADLLOvp"></a>
+                    <a name="//apple_ref/swift/Property/_state" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC6_state33_12FB482C52B7FF14778C487883424080LLAB6_StateADLLOvp">_state</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This holds our current run state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">_state</span><span class="p">:</span> <span class="kt">RVS_BasicGCDTimer</span><span class="o">.</span><span class="n"><a href="../Classes/RVS_BasicGCDTimer/_State.html">_State</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC13_onlyFireOnce33_12FB482C52B7FF14778C487883424080LLSbvp"></a>
+                    <a name="//apple_ref/swift/Property/_onlyFireOnce" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC13_onlyFireOnce33_12FB482C52B7FF14778C487883424080LLSbvp">_onlyFireOnce</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This holds a Boolean that is true, if we are to only fire once (default is false, which means we repeat).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">_onlyFireOnce</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC9_timerVar33_12FB482C52B7FF14778C487883424080LLSo019OS_dispatch_source_D0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/_timerVar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC9_timerVar33_12FB482C52B7FF14778C487883424080LLSo019OS_dispatch_source_D0_pSgvp">_timerVar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This contains the actual dispatch timer object instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">_timerVar</span><span class="p">:</span> <span class="kt">DispatchSourceTimer</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC9_delegate33_12FB482C52B7FF14778C487883424080LLAA0a1_bC8Delegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/_delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC9_delegate33_12FB482C52B7FF14778C487883424080LLAA0a1_bC8Delegate_pSgvp">_delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is the contained delegate instance</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">_delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/RVS_BasicGCDTimerDelegate.html">RVS_BasicGCDTimerDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC6_timer33_12FB482C52B7FF14778C487883424080LLSo019OS_dispatch_source_D0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/_timer" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC6_timer33_12FB482C52B7FF14778C487883424080LLSo019OS_dispatch_source_D0_pSgvp">_timer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This dynamically initialized calculated property will return (or create and return) a basic GCD timer that (probably) repeats.</p>
+
+<p>It uses the current queue.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">_timer</span><span class="p">:</span> <span class="kt">DispatchSourceTimer</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAAC9_seppukku33_12FB482C52B7FF14778C487883424080LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/_seppukku()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAAC9_seppukku33_12FB482C52B7FF14778C487883424080LLyyF">_seppukku()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is called to completely invalidate the timer.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">_seppukku</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
             <div class="task-group">
               <div class="task-name-container">
                 <a name="/Public%20Instance%20Properties"></a>
@@ -362,6 +579,44 @@ You then call <q>resume()</q> on that instance.</p>
                       <div>
                         <h4>Return Value</h4>
                         <p>the delegate object. READ/WRITE. If nil, then the instance will stop and invalidate. You must have a delegate to run.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Deinitializer"></a>
+                <a name="//apple_ref/swift/Section/Deinitializer" class="dashAnchor"></a>
+                <a href="#/Deinitializer">
+                  <h3 class="section-name">Deinitializer</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:17RVS_BasicGCDTimerAACfd"></a>
+                    <a name="//apple_ref/swift/Method/deinit" class="dashAnchor"></a>
+                    <a class="token" href="#/s:17RVS_BasicGCDTimerAACfd">deinit</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>We have to carefully dismantle this, as we can end up with crashes if we don&rsquo;t clean up properly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">deinit</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>

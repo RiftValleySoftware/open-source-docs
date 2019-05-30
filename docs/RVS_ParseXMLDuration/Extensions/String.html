@@ -120,6 +120,80 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SS20RVS_ParseXMLDurationE02asC010Foundation14DateComponentsVSgvg01_dC10ScanStringL__10isNegative0jF0AFSSSg_S2btF"></a>
+                    <a name="//apple_ref/swift/Function/_asXMLDurationScanString(_:isNegative:isDate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SS20RVS_ParseXMLDurationE02asC010Foundation14DateComponentsVSgvg01_dC10ScanStringL__10isNegative0jF0AFSSSg_S2btF">_asXMLDurationScanString(_:isNegative:isDate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This is an embedded scanner routine that scans a provided String for xsd:duration values, and returns a DateComponents instance.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">_asXMLDurationScanString</span><span class="p">(</span><span class="n">_</span> <span class="nv">inString</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">isNegative</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">isDate</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">DateComponents</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inString</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The String segment to be parsed. It can be nil, in which case nil is returned.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isNegative</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An optional Bool (default is false). True, if the duration is marked as negative.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isDate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An optional Bool (default is false). True, if this String is the first part (the Date section).</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An instance of DateComponents, set to the duration. Nil, if the parse failed for any reason.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
