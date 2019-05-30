@@ -1,6 +1,26 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmkaMani/AlarmClock/Custom Controls/TheGreatRiftValleyDrawing.swift",
+      "line": 23,
+      "symbol": "TheGreatRiftValleyDrawing._moonFillGradientLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmkaMani/AlarmClock/Custom Controls/TheGreatRiftValleyDrawing.swift",
+      "line": 24,
+      "symbol": "TheGreatRiftValleyDrawing._gradientLayer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cmarshall/Documents/Development/RiftValley/AmkaMani/AlarmClock/Custom Controls/TheGreatRiftValleyDrawing.swift",
+      "line": 25,
+      "symbol": "TheGreatRiftValleyDrawing._tapGestureRecognizer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/cmarshall/Documents/Development/RiftValley/AmkaMani"
 }
