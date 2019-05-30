@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);fill:url(#Background_Square_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="512" cy="512" r="511"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<linearGradient id="Background_Square_1_" gradientUnits="userSpaceOnUse" x1="512" y1="-1471.2489" x2="512" y2="-328.7511" gradientTransform="matrix(1 0 0 -1 0 -388)">
+		<stop  offset="0" style="stop-color:#006A1E"/>
+		<stop  offset="1" style="stop-color:#3FFF91"/>
+	</linearGradient>
+	<rect id="Background_Square" x="-59.2" y="-59.2" class="st0" width="1142.5" height="1142.5"/>
+</g>
+<path id="Moon_and_Mountains" class="st1" d="M1004.6,512.8c0-272.3-221.4-493.4-492.9-493.4c-131.9,0-255.5,51-348.3,143.8
+	C70.7,255.8,19.4,379.5,19.4,511.3c0,100,30,196.7,86.9,278.4c55.1,79.8,132.2,141.6,222.1,178l3.8,1.5l57.3-89.1
+	c66.3-98.9,170.8-249.8,194.8-258.5c12.4-0.8,25.9,27.3,62.1,76.4l-197.1,300h0.3c48-69.6,267.9-386.6,300-410.6
+	c13.2,5.2,25.4,10.5,36.7,10.5c10.8,0,19.5-4.1,35.3-10.5c22.1,18.4,73.7,76.8,125.5,157.7c7.9-14.6,14.6-30.3,20.6-46.1
+	C992.2,640.5,1004.6,577.6,1004.6,512.8z M830.8,544.2l-4.1,3.8c-0.3,0.3-23.2,18.7-39.7,18.7c-12.7,0-34.1-13.8-41.2-19.1l-4.1-3.3
+	l-85.8,130.8l-69.3-120.9L328.5,956.6c-86.9-35.6-160.7-95.5-213.9-172.7c-55.5-80.4-85-174.8-85-272.6
+	c0-129.2,50.2-250.6,140.8-341.3s212-140.8,341.3-140.8c266.3,0,483.2,216.9,483.2,483.6c0,74.5-16.1,145.4-48.6,210.9L830.8,544.2z
+	"/>
+</svg>
