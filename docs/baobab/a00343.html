@@ -110,12 +110,14 @@ $(document).ready(function(){initNavTree('a00343.html','');});
 <div class="dynheader">
 Inheritance diagram for CO_Security_Login:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00342.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00342.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CO_Security_Login:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00341.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00341.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -503,7 +505,8 @@ Private Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                          {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $temp_api_key = self::_random_str($key_length);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        $temp_api_key .= <span class="stringliteral">&#39; - &#39;</span>.strval(microtime(<span class="keyword">true</span>)); <span class="comment">// Add the current generation microtime, for key timeout.</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        </div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">// If we are taking the IP address into consideration, then we store that, as well.</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">if</span> (isset(CO_Config::$api_key_includes_ip_address) &amp;&amp; CO_Config::$api_key_includes_ip_address) {</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            $temp_api_key .= <span class="stringliteral">&#39; - &#39;</span>.strtolower(strval($_SERVER[<span class="stringliteral">&#39;REMOTE_ADDR&#39;</span>]));</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        </div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        $this-&gt;_api_key = strval($temp_api_key);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a5f57991e29b7602070594328676cfbb8_icgraph.svg" width="350" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a5f57991e29b7602070594328676cfbb8_icgraph.svg" width="350" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -532,7 +535,8 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_a59e2e5be376349924698305603bfb51f_cgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_a59e2e5be376349924698305603bfb51f_cgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -568,7 +572,8 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_ae927630811dae37fddc34b16878c63fd_cgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_ae927630811dae37fddc34b16878c63fd_cgraph.svg" width="100%" height="472"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -602,12 +607,14 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aecb158735e3a185c0857c44bf60f45f0_cgraph.svg" width="362" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aecb158735e3a185c0857c44bf60f45f0_cgraph.svg" width="362" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aecb158735e3a185c0857c44bf60f45f0_icgraph.svg" width="368" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aecb158735e3a185c0857c44bf60f45f0_icgraph.svg" width="368" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -661,7 +668,8 @@ Here is the caller graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                                          {</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        </div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        $ret = $this-&gt;context[<span class="stringliteral">&#39;hashed_password&#39;</span>];</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        </div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> ($in_password_to_crypt) {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">if</span> (strlen($in_password_to_crypt) &gt;= CO_Config::$min_pw_len) {</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                $ret = password_hash($in_password_to_crypt, PASSWORD_DEFAULT);</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                $ret = <span class="keyword">false</span>;</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            }</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        </div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">return</span> $ret;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a615bc63ad75ff08982eeb0c1a2da7243_icgraph.svg" width="396" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a615bc63ad75ff08982eeb0c1a2da7243_icgraph.svg" width="396" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -711,12 +719,14 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a30db2d11dd81390f5a671bcd32835544_cgraph.svg" width="379" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a30db2d11dd81390f5a671bcd32835544_cgraph.svg" width="379" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a30db2d11dd81390f5a671bcd32835544_icgraph.svg" width="395" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a30db2d11dd81390f5a671bcd32835544_icgraph.svg" width="395" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -743,7 +753,8 @@ Here is the caller graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                                 {</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span> intval(CO_Config::god_mode_id()) == intval($this-&gt;<span class="keywordtype">id</span>());</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div></div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a03304936652c2c606c411c7c6a0f0c7f_icgraph.svg" width="608" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a03304936652c2c606c411c7c6a0f0c7f_icgraph.svg" width="608" height="287"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -783,7 +794,8 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aa5c815210d09779bd16fc72ddd0fce59_cgraph.svg" width="560" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aa5c815210d09779bd16fc72ddd0fce59_cgraph.svg" width="560" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -813,12 +825,14 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aac538e52310a1c332914682a9c2ec8d2_cgraph.svg" width="414" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aac538e52310a1c332914682a9c2ec8d2_cgraph.svg" width="414" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aac538e52310a1c332914682a9c2ec8d2_icgraph.svg" width="610" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aac538e52310a1c332914682a9c2ec8d2_icgraph.svg" width="610" height="143"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -880,7 +894,8 @@ Here is the caller graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a5ec502fbeb3620816dbcf4868da637e8_cgraph.svg" width="560" height="175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_a5ec502fbeb3620816dbcf4868da637e8_cgraph.svg" width="560" height="175"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -908,7 +923,8 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aa1e788b0d2d7b7e807083d7333f2596e_cgraph.svg" width="612" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aa1e788b0d2d7b7e807083d7333f2596e_cgraph.svg" width="612" height="50"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -969,7 +985,8 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_a061f896c69dc8a8dd3d9ee793b91ddc7_cgraph.svg" width="100%" height="511"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_a061f896c69dc8a8dd3d9ee793b91ddc7_cgraph.svg" width="100%" height="511"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1007,7 +1024,8 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_ac4f0c16cb8cf1e2151451bf4d5cb2238_cgraph.svg" width="100%" height="511"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00343_ac4f0c16cb8cf1e2151451bf4d5cb2238_cgraph.svg" width="100%" height="511"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -1039,12 +1057,14 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aba256552040dd8af7196f0fea2a58609_cgraph.svg" width="386" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aba256552040dd8af7196f0fea2a58609_cgraph.svg" width="386" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aba256552040dd8af7196f0fea2a58609_icgraph.svg" width="416" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00343_aba256552040dd8af7196f0fea2a58609_icgraph.svg" width="416" height="162"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
