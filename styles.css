@@ -9,25 +9,25 @@ body, html {
 }
 
 body {
-    font-family: Helvetica, Sans-Serif;
+    font-family: "Century Gothic", Helvetica, Sans-Serif;
     text-align: center;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 30%;
     background-color: white;
-    background-image: url(img/light-background.gif);
+    background-image: url(img/Background.png);
 }
 
 .main-header {
     padding-top: 0.25em;
     background-color: #309;
-    background-image: linear-gradient(#30c, #309);
+    background-image: linear-gradient(#941a1d, #680a1b);
 }
 
-.doclink-ul,
 .header-wrapper,
-.header-text-div {
+.header-text-div,
+.doclink-ul {
     margin: auto;
     display: table;
 }
@@ -35,39 +35,6 @@ body {
 .header-text-div {
     text-align: left;
     color: white;
-    float: left;
-}
-
-.doclink-ul {
-    text-align: left;
-    margin-top: 1em;
-}
-
-.doclink-ul,
-.doclink-ul li {
-    list-style-type: none;
-}
-
-.doclink-ul li {
-    clear: both;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-}
-
-.doclink-div {
-    vertical-align: middle;
-}
-
-.doclink-img {
-    width: 80px;
-    float: left;
-}
-
-.doclink-text {
-    display: block;
-    height: 80px;
-    line-height: 80px;
-    margin-left: 0.5em;
     float: left;
 }
 
@@ -79,29 +46,119 @@ body {
     margin: 0;
     padding: 0;
     outline: none;
-    width: 88.5px !important;
-    height: 75px !important;
-    max-height: 300px !important;
-    transition: none !important;
-    background-position: 0 -80px;
-    background-size: 88.5px;
+    width: 5em;
+    height: 5em;
+    max-height: 300px;
+    background-position: 0 0px;
+    background-size: 5em;
     background-repeat: no-repeat;
-    background-image:url('https://riftvalleysoftware.com/wp-content/uploads/2018/12/main-logo-167x300.png');
+    background-image:url('img/icon.png');
 }
 
 .logo a:hover img {
-    background-position: 0 0;
+    background-position: 0 -5em;
 }
 
-.doclink-ul li a .doclink-text,
-.doclink-ul li a:visited .doclink-text {
+.section-header-h1,
+.section-header-h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.section-header-h1 a,
+.section-header-h2 a,
+.section-header-h1 a:visited,
+.section-header-h2 a:visited {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+}
+
+.section-header-h1 a,
+.section-header-h1 a:visited {
+    min-height: 1.25em;
+    color: white;
+    line-height: 1.25em;
+    font-size: 1em;
+    background-color: #009;
+    border-radius: 0.725em;
+}
+
+.section-header-h2 a {
+    height: 1em;
+    line-height: 1em;
+    font-size: 0.75em;
+}
+
+.section-header-h1 a:hover,
+.section-header-h1 a:active {
+    background-color: #060;
+}
+
+.doclink-ul {
+    clear: both;
+    text-align: left;
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+.doclink-table {
+    width: 100%;
+    display: block;
+    max-width: 70em;
+    margin-left: 1em;
+}
+
+.doclink-section-li {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    margin-top: 0.5em;
+}
+
+.header-td {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0.5em;
+}
+
+.doclink-img,
+.doc-image-td {
+    width: 5em !important;
+}
+
+.description-td {
+    font-weight: lighter;
+    padding-left: 1em;
+    line-height: 19px;
+    overflow: auto;
+}
+
+.doclink-text {
+    padding-left: 1em;
+    line-height: 19px;
+    max-width: 10em;
+}
+
+a,
+a:visited {
     text-decoration: none;
+    color: #009;
 }
 
-.doclink-ul li a:hover .doclink-text,
-.doclink-ul li a:active .doclink-text {
+a:hover,
+a:active {
     color: #060;
     text-decoration: underline;
+}
+
+.description-td a,
+.description-td a:visited {
+    text-decoration: underline;
+}
+
+.description-td a:hover,
+.description-td a:active {
+    text-decoration: none;
 }
 
 .doclink-ul li a .doclink-img,
@@ -109,8 +166,17 @@ body {
     border-radius: 50%;
     border: 4px solid transparent;
 }
+
 .doclink-ul li a:hover .doclink-img,
 .doclink-ul li a:active .doclink-img {
     border-radius: 50%;
     border: 4px solid #060;
+    text-decoration: none;
+}
+
+img.corp-img {
+    height: 1em;
+    margin-top: 0.125em;
+    margin-right: 0.5em;
+    float: left;
 }
