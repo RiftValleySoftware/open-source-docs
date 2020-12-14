@@ -9,25 +9,28 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 33)">
 <title>CO_Cobra\get_user_from_login</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-33 341.5898,-33 341.5898,4 -4,4"/>
-<!-- Node36 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node36</title>
+<title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-28.5 131.0537,-28.5 131.0537,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Cobra\get_user_from</text>
 <text text-anchor="middle" x="65.5269" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_login</text>
+</a>
 </g>
-<!-- Node37 -->
+</g>
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node37</title>
-<g id="a_node2"><a xlink:href="a00239.html#a7d6421cfa6abf3aa5885bfe694ee898d" target="_top" xlink:title="CO_Cobra\\make_standalone_user">
+<title>Node2</title>
+<g id="a_node2"><a xlink:href="a00239.html#a7d6421cfa6abf3aa5885bfe694ee898d" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="167.0537,-5.5 167.0537,-23.5 337.5898,-23.5 337.5898,-5.5 167.0537,-5.5"/>
 <text text-anchor="middle" x="252.3218" y="-11.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Cobra\make_standalone_user</text>
 </a>
 </g>
 </g>
-<!-- Node36&#45;&gt;Node37 -->
+<!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
-<title>Node36&#45;&gt;Node37</title>
+<title>Node1&#45;&gt;Node2</title>
 <path fill="none" stroke="#191970" d="M131.1211,-14.5C139.4324,-14.5 148.0669,-14.5 156.7266,-14.5"/>
 <polygon fill="#191970" stroke="#191970" points="156.8862,-18.0001 166.8861,-14.5 156.8861,-11.0001 156.8862,-18.0001"/>
 </g>

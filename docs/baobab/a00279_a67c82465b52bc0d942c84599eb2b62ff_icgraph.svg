@@ -9,92 +9,95 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 127)">
 <title>CO_User_Collection\_load_login</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-127 405.8164,-127 405.8164,4 -4,4"/>
-<!-- Node5 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node5</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-23.5 0,-51.5 107.1475,-51.5 107.1475,-23.5 0,-23.5"/>
-<text text-anchor="start" x="8" y="-39.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="53.5737" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\_load_login</text>
+<title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
+<polygon fill="#bfbfbf" stroke="#000000" points="294.6689,-23.5 294.6689,-51.5 401.8164,-51.5 401.8164,-23.5 294.6689,-23.5"/>
+<text text-anchor="start" x="302.6689" y="-39.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="348.2427" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\_load_login</text>
+</a>
+</g>
+</g>
+<!-- Node2 -->
+<g id="node2" class="node">
+<title>Node2</title>
+<g id="a_node2"><a xlink:href="a00279.html#a2cc75e169901df4a8fc859f42e0e9f8c" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="151.5215,-47.5 151.5215,-75.5 258.6689,-75.5 258.6689,-47.5 151.5215,-47.5"/>
+<text text-anchor="start" x="159.5215" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="205.0952" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\get_login_instance</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node2 -->
+<g id="edge1" class="edge">
+<title>Node1&#45;&gt;Node2</title>
+<path fill="none" stroke="#191970" d="M284.6309,-48.1651C276.1114,-49.5935 267.4396,-51.0474 259.1063,-52.4445"/>
+<polygon fill="#191970" stroke="#191970" points="285.249,-51.6104 294.5326,-46.505 284.0915,-44.7068 285.249,-51.6104"/>
 </g>
 <!-- Node6 -->
-<g id="node2" class="node">
-<title>Node6</title>
-<g id="a_node2"><a xlink:href="a00279.html#a2cc75e169901df4a8fc859f42e0e9f8c" target="_top" xlink:title="CO_User_Collection\l\\get_login_instance">
-<polygon fill="#ffffff" stroke="#000000" points="143.1475,-47.5 143.1475,-75.5 250.2949,-75.5 250.2949,-47.5 143.1475,-47.5"/>
-<text text-anchor="start" x="151.1475" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="196.7212" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\get_login_instance</text>
-</a>
-</g>
-</g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge1" class="edge">
-<title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M117.1855,-48.1651C125.705,-49.5935 134.3768,-51.0474 142.7101,-52.4445"/>
-<polygon fill="#191970" stroke="#191970" points="117.7249,-44.7068 107.2838,-46.505 116.5674,-51.6104 117.7249,-44.7068"/>
-</g>
-<!-- Node10 -->
 <g id="node6" class="node">
-<title>Node10</title>
-<g id="a_node6"><a xlink:href="a00279.html#a38a9d15bfc7194ec0057869caf6523c0" target="_top" xlink:title="CO_User_Collection\l\\is_manager">
-<polygon fill="#ffffff" stroke="#000000" points="143.1475,-.5 143.1475,-28.5 250.2949,-28.5 250.2949,-.5 143.1475,-.5"/>
-<text text-anchor="start" x="151.1475" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="196.7212" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\is_manager</text>
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="a00279.html#a38a9d15bfc7194ec0057869caf6523c0" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="151.5215,-.5 151.5215,-28.5 258.6689,-28.5 258.6689,-.5 151.5215,-.5"/>
+<text text-anchor="start" x="159.5215" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="205.0952" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\is_manager</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node10 -->
+<!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
-<title>Node5&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M117.1855,-27.2793C125.705,-25.9104 134.3768,-24.5171 142.7101,-23.1782"/>
-<polygon fill="#191970" stroke="#191970" points="116.6019,-23.8281 107.2838,-28.8702 117.7125,-30.7394 116.6019,-23.8281"/>
+<title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="#191970" d="M284.6309,-27.2793C276.1114,-25.9104 267.4396,-24.5171 259.1063,-23.1782"/>
+<polygon fill="#191970" stroke="#191970" points="284.1039,-30.7394 294.5326,-28.8702 285.2145,-23.8281 284.1039,-30.7394"/>
 </g>
-<!-- Node7 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node7</title>
-<g id="a_node3"><a xlink:href="a00279.html#ac4b573bbcb37aaf83685c3fdff046bf7" target="_top" xlink:title="CO_User_Collection\l\\has_login_i_cant_see">
-<polygon fill="#ffffff" stroke="#000000" points="286.2949,-94.5 286.2949,-122.5 401.8164,-122.5 401.8164,-94.5 286.2949,-94.5"/>
-<text text-anchor="start" x="294.2949" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="344.0557" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\has_login_i_cant_see</text>
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="a00279.html#a3ae822685b2b8ca8af56d8ea4c4a2a6c" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="4.187,-94.5 4.187,-122.5 111.3345,-122.5 111.3345,-94.5 4.187,-94.5"/>
+<text text-anchor="start" x="12.187" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="57.7607" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\delete_from_db</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
+<!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
-<title>Node6&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M250.8239,-78.7589C267.0534,-83.9361 284.6486,-89.549 300.1357,-94.4894"/>
-<polygon fill="#191970" stroke="#191970" points="251.5171,-75.3063 240.9264,-75.6015 249.3897,-81.9752 251.5171,-75.3063"/>
+<title>Node2&#45;&gt;Node3</title>
+<path fill="none" stroke="#191970" d="M150.9925,-78.7589C134.763,-83.9361 117.1678,-89.549 101.6807,-94.4894"/>
+<polygon fill="#191970" stroke="#191970" points="152.4267,-81.9752 160.89,-75.6015 150.2993,-75.3063 152.4267,-81.9752"/>
 </g>
-<!-- Node8 -->
+<!-- Node4 -->
 <g id="node4" class="node">
-<title>Node8</title>
-<g id="a_node4"><a xlink:href="a00279.html#a9041f37ce8eba7afe52a014fe3938cce" target="_top" xlink:title="CO_User_Collection\l\\get_lang">
-<polygon fill="#ffffff" stroke="#000000" points="290.4819,-47.5 290.4819,-75.5 397.6294,-75.5 397.6294,-47.5 290.4819,-47.5"/>
-<text text-anchor="start" x="298.4819" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="344.0557" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\get_lang</text>
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="a00279.html#a9041f37ce8eba7afe52a014fe3938cce" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="4.187,-47.5 4.187,-75.5 111.3345,-75.5 111.3345,-47.5 4.187,-47.5"/>
+<text text-anchor="start" x="12.187" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="57.7607" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\get_lang</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node8 -->
+<!-- Node2&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
-<title>Node6&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M260.5329,-61.5C270.4381,-61.5 280.5853,-61.5 290.2408,-61.5"/>
-<polygon fill="#191970" stroke="#191970" points="260.3291,-58.0001 250.3291,-61.5 260.3291,-65.0001 260.3291,-58.0001"/>
+<title>Node2&#45;&gt;Node4</title>
+<path fill="none" stroke="#191970" d="M141.2835,-61.5C131.3783,-61.5 121.2311,-61.5 111.5756,-61.5"/>
+<polygon fill="#191970" stroke="#191970" points="141.4873,-65.0001 151.4873,-61.5 141.4873,-58.0001 141.4873,-65.0001"/>
 </g>
-<!-- Node9 -->
+<!-- Node5 -->
 <g id="node5" class="node">
-<title>Node9</title>
-<g id="a_node5"><a xlink:href="a00279.html#a3ae822685b2b8ca8af56d8ea4c4a2a6c" target="_top" xlink:title="CO_User_Collection\l\\delete_from_db">
-<polygon fill="#ffffff" stroke="#000000" points="290.4819,-.5 290.4819,-28.5 397.6294,-28.5 397.6294,-.5 290.4819,-.5"/>
-<text text-anchor="start" x="298.4819" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
-<text text-anchor="middle" x="344.0557" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\delete_from_db</text>
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="a00279.html#ac4b573bbcb37aaf83685c3fdff046bf7" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-28.5 115.5215,-28.5 115.5215,-.5 0,-.5"/>
+<text text-anchor="start" x="8" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_User_Collection</text>
+<text text-anchor="middle" x="57.7607" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">\has_login_i_cant_see</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node9 -->
+<!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
-<title>Node6&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M250.8239,-44.2411C267.0534,-39.0639 284.6486,-33.451 300.1357,-28.5106"/>
-<polygon fill="#191970" stroke="#191970" points="249.3897,-41.0248 240.9264,-47.3985 251.5171,-47.6937 249.3897,-41.0248"/>
+<title>Node2&#45;&gt;Node5</title>
+<path fill="none" stroke="#191970" d="M150.9925,-44.2411C134.763,-39.0639 117.1678,-33.451 101.6807,-28.5106"/>
+<polygon fill="#191970" stroke="#191970" points="150.2993,-47.6937 160.89,-47.3985 152.4267,-41.0248 150.2993,-47.6937"/>
 </g>
 </g>
 </svg>

@@ -1,7 +1,8 @@
 <map id="CO_Andisol\create_place" name="CO_Andisol\create_place">
-<area shape="rect" id="node2" href="$a00219.html#a1783b1403b768959f80f17b08a5e8f82" title="CO_Andisol\\create_general\l_data_item" alt="" coords="226,5,411,44"/>
-<area shape="rect" id="node3" href="$a00219.html#a190232857416d5f1e7033452ac1bf6c0" title="CO_Andisol\\_create\l_db_object" alt="" coords="459,5,600,44"/>
-<area shape="rect" id="node4" href="$a00219.html#acda267f1d6a8e496e167ed46fe590dc6" title="CO_Andisol\\get_chameleon\l_instance" alt="" coords="1021,31,1209,69"/>
-<area shape="rect" id="node5" href="$a00219.html#ac2a2dcb99dc927789b0ffa09c24946de" title="CO_Andisol\\logged_in" alt="" coords="648,37,802,63"/>
-<area shape="rect" id="node6" href="$a00219.html#a4b0ec12b29ce4812cbb4169b68770f66" title="CO_Andisol\\valid" alt="" coords="850,88,973,113"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,12,178,37"/>
+<area shape="rect" id="node2" href="$a00219.html#a1783b1403b768959f80f17b08a5e8f82" title=" " alt="" coords="226,5,411,44"/>
+<area shape="rect" id="node3" href="$a00219.html#a190232857416d5f1e7033452ac1bf6c0" title=" " alt="" coords="459,5,600,44"/>
+<area shape="rect" id="node4" href="$a00219.html#acda267f1d6a8e496e167ed46fe590dc6" title=" " alt="" coords="1021,31,1209,69"/>
+<area shape="rect" id="node5" href="$a00219.html#ac2a2dcb99dc927789b0ffa09c24946de" title=" " alt="" coords="648,37,802,63"/>
+<area shape="rect" id="node6" href="$a00219.html#a4b0ec12b29ce4812cbb4169b68770f66" title=" " alt="" coords="850,88,973,113"/>
 </map>

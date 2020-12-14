@@ -1,7 +1,9 @@
 var a00239 =
 [
     [ "__construct", "a00239.html#ad4f1a959218caf7f3eb29b29f3fd4a70", null ],
+    [ "_convert_login", "a00239.html#a15371cf35e812615a00fc5f535320338", null ],
     [ "_create_new_login", "a00239.html#a7710a3275a7b2dfdba8e00a8bd2c0f61", null ],
+    [ "convert_login", "a00239.html#a8f75d437e7a86f0ec0095b281c804397", null ],
     [ "create_new_manager_login", "a00239.html#ac8a3c537cc29c1d4cdb6df5f004ce6d0", null ],
     [ "create_new_standard_login", "a00239.html#a327fb6e4cfcaf6d32639123eed2ea412", null ],
     [ "delete_login", "a00239.html#a6ef606d48b0551d23f9c4bd30d1c4110", null ],

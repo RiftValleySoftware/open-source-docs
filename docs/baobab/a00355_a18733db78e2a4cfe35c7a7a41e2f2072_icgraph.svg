@@ -9,106 +9,109 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 221)">
 <title>CO_Access\generic_search</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-221 481.4268,-221 481.4268,4 -4,4"/>
-<!-- Node20 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node20</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-99.5 0,-117.5 139.9453,-117.5 139.9453,-99.5 0,-99.5"/>
-<text text-anchor="middle" x="69.9727" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Access\generic_search</text>
+<title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
+<polygon fill="#bfbfbf" stroke="#000000" points="337.4814,-99.5 337.4814,-117.5 477.4268,-117.5 477.4268,-99.5 337.4814,-99.5"/>
+<text text-anchor="middle" x="407.4541" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Access\generic_search</text>
+</a>
 </g>
-<!-- Node21 -->
+</g>
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node21</title>
-<g id="a_node2"><a xlink:href="a00299.html#a886cef7ed20be4960f67cb60c7799b76" target="_top" xlink:title="CO_Chameleon\\get_all\l_collections_for_element">
-<polygon fill="#ffffff" stroke="#000000" points="180.9502,-188.5 180.9502,-216.5 307.5703,-216.5 307.5703,-188.5 180.9502,-188.5"/>
-<text text-anchor="start" x="188.9502" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_all</text>
-<text text-anchor="middle" x="244.2603" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_collections_for_element</text>
+<title>Node2</title>
+<g id="a_node2"><a xlink:href="a00299.html#a886cef7ed20be4960f67cb60c7799b76" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="169.8564,-188.5 169.8564,-216.5 296.4766,-216.5 296.4766,-188.5 169.8564,-188.5"/>
+<text text-anchor="start" x="177.8564" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_all</text>
+<text text-anchor="middle" x="233.1665" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_collections_for_element</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node21 -->
+<!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
-<title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="#191970" d="M89.3728,-123.8144C109.9241,-139.4673 143.7842,-163.6648 175.9453,-179.5 182.5694,-182.7615 189.7688,-185.7413 196.9265,-188.3961"/>
-<polygon fill="#191970" stroke="#191970" points="91.4783,-121.0183 81.4236,-117.6784 87.201,-126.5595 91.4783,-121.0183"/>
+<title>Node1&#45;&gt;Node2</title>
+<path fill="none" stroke="#191970" d="M388.054,-123.8144C367.5026,-139.4673 333.6426,-163.6648 301.4814,-179.5 294.8574,-182.7615 287.658,-185.7413 280.5003,-188.3961"/>
+<polygon fill="#191970" stroke="#191970" points="390.2258,-126.5595 396.0031,-117.6784 385.9485,-121.0183 390.2258,-126.5595"/>
 </g>
-<!-- Node22 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node22</title>
-<g id="a_node3"><a xlink:href="a00299.html#a7c972b8165d224faa09477108583c4a3" target="_top" xlink:title="CO_Chameleon\\get_object\l_for_key">
-<polygon fill="#ffffff" stroke="#000000" points="175.9453,-141.5 175.9453,-169.5 312.5752,-169.5 312.5752,-141.5 175.9453,-141.5"/>
-<text text-anchor="start" x="183.9453" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_object</text>
-<text text-anchor="middle" x="244.2603" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="a00299.html#a7c972b8165d224faa09477108583c4a3" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="164.8516,-141.5 164.8516,-169.5 301.4814,-169.5 301.4814,-141.5 164.8516,-141.5"/>
+<text text-anchor="start" x="172.8516" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_object</text>
+<text text-anchor="middle" x="233.1665" y="-147.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node22 -->
+<!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
-<title>Node20&#45;&gt;Node22</title>
-<path fill="none" stroke="#191970" d="M113.4226,-120.2171C137.3117,-126.6593 167.1109,-134.6952 192.2338,-141.4701"/>
-<polygon fill="#191970" stroke="#191970" points="114.1435,-116.7865 103.5771,-117.5621 112.3208,-123.5451 114.1435,-116.7865"/>
+<title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="#191970" d="M364.0042,-120.2171C340.1151,-126.6593 310.3159,-134.6952 285.193,-141.4701"/>
+<polygon fill="#191970" stroke="#191970" points="365.1059,-123.5451 373.8497,-117.5621 363.2833,-116.7865 365.1059,-123.5451"/>
 </g>
-<!-- Node23 -->
+<!-- Node4 -->
 <g id="node4" class="node">
-<title>Node23</title>
-<g id="a_node4"><a xlink:href="a00299.html#a88b451020a7174eeb0c06e216ca517cf" target="_top" xlink:title="CO_Chameleon\\get_user\l_from_login">
-<polygon fill="#ffffff" stroke="#000000" points="179.561,-94.5 179.561,-122.5 308.9595,-122.5 308.9595,-94.5 179.561,-94.5"/>
-<text text-anchor="start" x="187.561" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_user</text>
-<text text-anchor="middle" x="244.2603" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_from_login</text>
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="a00299.html#a88b451020a7174eeb0c06e216ca517cf" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="168.4673,-94.5 168.4673,-122.5 297.8657,-122.5 297.8657,-94.5 168.4673,-94.5"/>
+<text text-anchor="start" x="176.4673" y="-110.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_user</text>
+<text text-anchor="middle" x="233.1665" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_from_login</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node23 -->
+<!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
-<title>Node20&#45;&gt;Node23</title>
-<path fill="none" stroke="#191970" d="M150.2149,-108.5C159.973,-108.5 169.8473,-108.5 179.3441,-108.5"/>
-<polygon fill="#191970" stroke="#191970" points="150.1088,-105.0001 140.1087,-108.5 150.1087,-112.0001 150.1088,-105.0001"/>
+<title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="#191970" d="M327.2118,-108.5C317.4537,-108.5 307.5795,-108.5 298.0827,-108.5"/>
+<polygon fill="#191970" stroke="#191970" points="327.3181,-112.0001 337.318,-108.5 327.318,-105.0001 327.3181,-112.0001"/>
 </g>
-<!-- Node25 -->
+<!-- Node6 -->
 <g id="node6" class="node">
-<title>Node25</title>
-<g id="a_node6"><a xlink:href="a00299.html#ae2b8dce97e8591b617a3d95c031bf357" target="_top" xlink:title="CO_Chameleon\\get_value\l_for_key">
-<polygon fill="#ffffff" stroke="#000000" points="177.3345,-47.5 177.3345,-75.5 311.186,-75.5 311.186,-47.5 177.3345,-47.5"/>
-<text text-anchor="start" x="185.3345" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_value</text>
-<text text-anchor="middle" x="244.2603" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="a00299.html#ae2b8dce97e8591b617a3d95c031bf357" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="166.2407,-47.5 166.2407,-75.5 300.0923,-75.5 300.0923,-47.5 166.2407,-47.5"/>
+<text text-anchor="start" x="174.2407" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_value</text>
+<text text-anchor="middle" x="233.1665" y="-53.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node25 -->
+<!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
-<title>Node20&#45;&gt;Node25</title>
-<path fill="none" stroke="#191970" d="M113.4226,-96.7829C137.3117,-90.3407 167.1109,-82.3048 192.2338,-75.5299"/>
-<polygon fill="#191970" stroke="#191970" points="112.3208,-93.4549 103.5771,-99.4379 114.1435,-100.2135 112.3208,-93.4549"/>
+<title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="#191970" d="M364.0042,-96.7829C340.1151,-90.3407 310.3159,-82.3048 285.193,-75.5299"/>
+<polygon fill="#191970" stroke="#191970" points="363.2833,-100.2135 373.8497,-99.4379 365.1059,-93.4549 363.2833,-100.2135"/>
 </g>
-<!-- Node26 -->
+<!-- Node7 -->
 <g id="node7" class="node">
-<title>Node26</title>
-<g id="a_node7"><a xlink:href="a00299.html#af193950805884bd481b8863ffd6d4fb1" target="_top" xlink:title="CO_Chameleon\\set_value\l_for_key">
-<polygon fill="#ffffff" stroke="#000000" points="177.6152,-.5 177.6152,-28.5 310.9053,-28.5 310.9053,-.5 177.6152,-.5"/>
-<text text-anchor="start" x="185.6152" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\set_value</text>
-<text text-anchor="middle" x="244.2603" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
+<title>Node7</title>
+<g id="a_node7"><a xlink:href="a00299.html#af193950805884bd481b8863ffd6d4fb1" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="166.5215,-.5 166.5215,-28.5 299.8115,-28.5 299.8115,-.5 166.5215,-.5"/>
+<text text-anchor="start" x="174.5215" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\set_value</text>
+<text text-anchor="middle" x="233.1665" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_for_key</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node26 -->
+<!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
-<title>Node20&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M89.7859,-93.2567C110.4314,-77.9023 144.1484,-54.2854 175.9453,-38.5 183.2641,-34.8666 191.2705,-31.5311 199.1434,-28.5764"/>
-<polygon fill="#191970" stroke="#191970" points="87.6645,-90.4728 81.7818,-99.2844 91.8755,-96.0645 87.6645,-90.4728"/>
+<title>Node1&#45;&gt;Node7</title>
+<path fill="none" stroke="#191970" d="M387.6409,-93.2567C366.9953,-77.9023 333.2783,-54.2854 301.4814,-38.5 294.1627,-34.8666 286.1563,-31.5311 278.2833,-28.5764"/>
+<polygon fill="#191970" stroke="#191970" points="385.5513,-96.0645 395.645,-99.2844 389.7623,-90.4728 385.5513,-96.0645"/>
 </g>
-<!-- Node24 -->
+<!-- Node5 -->
 <g id="node5" class="node">
-<title>Node24</title>
-<g id="a_node5"><a xlink:href="a00299.html#ac6ba71b99a641f6d19aa0a0d73997234" target="_top" xlink:title="CO_Chameleon\\get_lang">
-<polygon fill="#ffffff" stroke="#000000" points="348.5752,-99.5 348.5752,-117.5 477.4268,-117.5 477.4268,-99.5 348.5752,-99.5"/>
-<text text-anchor="middle" x="413.001" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_lang</text>
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="a00299.html#ac6ba71b99a641f6d19aa0a0d73997234" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="0,-99.5 0,-117.5 128.8516,-117.5 128.8516,-99.5 0,-99.5"/>
+<text text-anchor="middle" x="64.4258" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Chameleon\get_lang</text>
 </a>
 </g>
 </g>
-<!-- Node23&#45;&gt;Node24 -->
+<!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
-<title>Node23&#45;&gt;Node24</title>
-<path fill="none" stroke="#191970" d="M319.1163,-108.5C328.8886,-108.5 338.8334,-108.5 348.4173,-108.5"/>
-<polygon fill="#191970" stroke="#191970" points="319.0173,-105.0001 309.0172,-108.5 319.0172,-112.0001 319.0173,-105.0001"/>
+<title>Node4&#45;&gt;Node5</title>
+<path fill="none" stroke="#191970" d="M158.3105,-108.5C148.5381,-108.5 138.5933,-108.5 129.0095,-108.5"/>
+<polygon fill="#191970" stroke="#191970" points="158.4096,-112.0001 168.4095,-108.5 158.4095,-105.0001 158.4096,-112.0001"/>
 </g>
 </g>
 </svg>

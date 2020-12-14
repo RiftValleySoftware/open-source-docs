@@ -12,6 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-344.5 144.1396,-344.5 144.1396,-.5 0,-.5"/>
 <text text-anchor="middle" x="72.0698" y="-332.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Lang_Common</text>
 <polyline fill="none" stroke="#000000" points="0,-326.5 144.1396,-326.5 "/>
@@ -47,6 +48,8 @@
 <text text-anchor="start" x="8" y="-24.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_to_delete_god</text>
 <polyline fill="none" stroke="#000000" points="0,-18.5 144.1396,-18.5 "/>
 <text text-anchor="middle" x="72.0698" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> </text>
+</a>
+</g>
 </g>
 </g>
 </svg>

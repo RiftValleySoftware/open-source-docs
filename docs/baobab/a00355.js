@@ -15,6 +15,7 @@ var a00355 =
     [ "get_all_security_readable_records", "a00355.html#a5ba51a4d11f23c1193d8326bf7f047a4", null ],
     [ "get_all_security_writeable_records", "a00355.html#ae9a7d9c694b05cc9f8f11ff6d76885e4", null ],
     [ "get_all_tokens", "a00355.html#a9641b0ff778d0e42dcc52541961b724e", null ],
+    [ "get_all_user_objects_with_access", "a00355.html#a3f69b1593b01b7ddb5d8e8238ef2bfe5", null ],
     [ "get_available_tokens", "a00355.html#a115c46a27b51a3f2226125230fd6183d", null ],
     [ "get_data_access_class_by_id", "a00355.html#a44ab6679609843c03531cac3b571c074", null ],
     [ "get_lang", "a00355.html#ae2a40cf404135bb4aae747c37520733e", null ],

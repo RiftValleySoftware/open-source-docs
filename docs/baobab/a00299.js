@@ -1,8 +1,12 @@
 var a00299 =
 [
     [ "__construct", "a00299.html#a9ef91d4eed5c8e1e22c19df0e334284a", null ],
+    [ "count_all_login_objects_with_access", "a00299.html#a1f988ac0319194eb16a424b4c91c50ff", null ],
     [ "fetch_backup", "a00299.html#ac8770074e83afae6cc42b03f95341afc", null ],
     [ "get_all_collections_for_element", "a00299.html#a886cef7ed20be4960f67cb60c7799b76", null ],
+    [ "get_all_login_objects_with_access", "a00299.html#a8a9d9d88123430efcbedfb2475b01bb9", null ],
+    [ "get_all_user_objects_with_access", "a00299.html#ac3ecd5fe3609b734e6a95373dca663bd", null ],
+    [ "get_all_visible_users", "a00299.html#aef734e1f559ee043e95b3ccbdb3e0d25", null ],
     [ "get_lang", "a00299.html#ac6ba71b99a641f6d19aa0a0d73997234", null ],
     [ "get_object_for_key", "a00299.html#a7c972b8165d224faa09477108583c4a3", null ],
     [ "get_security_ids", "a00299.html#a9b38a87c5bb087c04af5d13ecf314ed2", null ],

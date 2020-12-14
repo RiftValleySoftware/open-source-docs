@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['people',['PEOPLE',['../a00081.html',1,'']]],
-  ['places',['PLACES',['../a00082.html',1,'']]]
+  ['people_2',['PEOPLE',['../a00081.html',1,'']]],
+  ['places_3',['PLACES',['../a00082.html',1,'']]]
 ];

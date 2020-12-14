@@ -9,27 +9,30 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 33)">
 <title>CO_Basalt\_process_command</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-33 266.5361,-33 266.5361,4 -4,4"/>
-<!-- Node67 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node67</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-.5 0,-28.5 107.709,-28.5 107.709,-.5 0,-.5"/>
-<text text-anchor="start" x="8" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Basalt\_process</text>
-<text text-anchor="middle" x="53.8545" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_command</text>
-</g>
-<!-- Node68 -->
-<g id="node2" class="node">
-<title>Node68</title>
-<g id="a_node2"><a xlink:href="a00203.html#aad1b60cb5230efedfc34a931546d415b" target="_top" xlink:title="CO_Basalt\\__construct">
-<polygon fill="#ffffff" stroke="#000000" points="143.709,-5.5 143.709,-23.5 262.5361,-23.5 262.5361,-5.5 143.709,-5.5"/>
-<text text-anchor="middle" x="203.1226" y="-11.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Basalt\__construct</text>
+<title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
+<polygon fill="#bfbfbf" stroke="#000000" points="154.8271,-.5 154.8271,-28.5 262.5361,-28.5 262.5361,-.5 154.8271,-.5"/>
+<text text-anchor="start" x="162.8271" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Basalt\_process</text>
+<text text-anchor="middle" x="208.6816" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_command</text>
 </a>
 </g>
 </g>
-<!-- Node67&#45;&gt;Node68 -->
+<!-- Node2 -->
+<g id="node2" class="node">
+<title>Node2</title>
+<g id="a_node2"><a xlink:href="a00203.html#aad1b60cb5230efedfc34a931546d415b" target="_top" xlink:title=" ">
+<polygon fill="#ffffff" stroke="#000000" points="0,-5.5 0,-23.5 118.8271,-23.5 118.8271,-5.5 0,-5.5"/>
+<text text-anchor="middle" x="59.4136" y="-11.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Basalt\__construct</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
-<title>Node67&#45;&gt;Node68</title>
-<path fill="none" stroke="#191970" d="M117.9617,-14.5C126.4386,-14.5 135.1004,-14.5 143.4978,-14.5"/>
-<polygon fill="#191970" stroke="#191970" points="117.7437,-11.0001 107.7437,-14.5 117.7437,-18.0001 117.7437,-11.0001"/>
+<title>Node1&#45;&gt;Node2</title>
+<path fill="none" stroke="#191970" d="M144.5744,-14.5C136.0975,-14.5 127.4357,-14.5 119.0384,-14.5"/>
+<polygon fill="#191970" stroke="#191970" points="144.7925,-18.0001 154.7924,-14.5 144.7924,-11.0001 144.7925,-18.0001"/>
 </g>
 </g>
 </svg>

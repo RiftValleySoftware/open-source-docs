@@ -55,9 +55,10 @@ var sectionId = 'dynsection-1';
 <g id="viewport">
 <title>CO_Place_Collection</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-1233 285.6226,-1233 285.6226,4 -4,4"/>
-<!-- Node6 -->
+<!-- Node1 -->
 <g id="node1" class="node">
-<title>Node6</title>
+<title>Node1</title>
+<g id="a_node1"><a xlink:title=" ">
 <polygon fill="#bfbfbf" stroke="#000000" points="92.4395,-.5 92.4395,-74.5 203.4883,-74.5 203.4883,-.5 92.4395,-.5"/>
 <text text-anchor="middle" x="147.9639" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Place_Collection</text>
 <polyline fill="none" stroke="#000000" points="92.4395,-56.5 203.4883,-56.5 "/>
@@ -66,11 +67,13 @@ var sectionId = 'dynsection-1';
 <text text-anchor="start" x="100.4395" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ __construct()</text>
 <text text-anchor="start" x="100.4395" y="-16.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ load_from_db()</text>
 <text text-anchor="start" x="100.4395" y="-6.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">+ delete_from_db()</text>
+</a>
 </g>
-<!-- Node7 -->
+</g>
+<!-- Node2 -->
 <g id="node2" class="node">
-<title>Node7</title>
-<g id="a_node2"><a xlink:href="a00263.html" target="_top" xlink:title="{CO_Place\n|+ $address_elements\l+ $google_geocode_uri\l_prefix\l+ $google_lookup_uri\l_prefix\l+ $region_bias\l|+ __construct()\l+ set_address_elements()\l+ set_address_element()\l+ set_address_element\l_by_key()\l+ get_address_element\l_by_index()\l+ lookup_address()\l+ geocode_long_lat()\l+ get_readable_address()\l+ set_tags_from_address\l_elements()\l+ get_address_elements()\l# _get_address_element\l_labels()\l}">
+<title>Node2</title>
+<g id="a_node2"><a xlink:href="a00263.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="9.7363,-111.5 9.7363,-355.5 142.1914,-355.5 142.1914,-111.5 9.7363,-111.5"/>
 <text text-anchor="middle" x="75.9639" y="-343.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Place</text>
 <polyline fill="none" stroke="#000000" points="9.7363,-337.5 142.1914,-337.5 "/>
@@ -99,16 +102,16 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node7&#45;&gt;Node6 -->
+<!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
-<title>Node7&#45;&gt;Node6</title>
+<title>Node2&#45;&gt;Node1</title>
 <path fill="none" stroke="#191970" d="M124.3222,-101.8578C127.8942,-92.134 131.2815,-82.9131 134.3177,-74.6479"/>
 <polygon fill="none" stroke="#191970" points="121.0092,-100.7263 120.8464,-111.3199 127.5799,-103.1401 121.0092,-100.7263"/>
 </g>
-<!-- Node8 -->
+<!-- Node3 -->
 <g id="node3" class="node">
-<title>Node8</title>
-<g id="a_node3"><a xlink:href="a00335.html" target="_top" xlink:title="{CO_LL_Location\n|# $_longitude\l# $_latitude\l|+ __construct()\l+ load_from_db()\l+ update_db()\l+ set_longitude()\l+ set_latitude()\l+ fuzz_factor()\l+ is_fuzzy()\l+ set_fuzz_factor()\l+ raw_longitude()\l+ raw_latitude()\l+ longitude()\l+ latitude()\l+ set_can_see_through\l_the_fuzz()\l+ can_see_through_the_fuzz()\l+ i_can_see_clearly_now()\l# _default_setup()\l# _build_parameter_array()\l# _km_per_degree()\l# _fuzz_me()\l}">
+<title>Node3</title>
+<g id="a_node3"><a xlink:href="a00335.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-392.5 0,-646.5 151.9277,-646.5 151.9277,-392.5 0,-392.5"/>
 <text text-anchor="middle" x="75.9639" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_LL_Location</text>
 <polyline fill="none" stroke="#000000" points="0,-628.5 151.9277,-628.5 "/>
@@ -138,16 +141,16 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node7 -->
+<!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
-<title>Node8&#45;&gt;Node7</title>
+<title>Node3&#45;&gt;Node2</title>
 <path fill="none" stroke="#191970" d="M75.9639,-382.3278C75.9639,-373.3969 75.9639,-364.4356 75.9639,-355.5837"/>
 <polygon fill="none" stroke="#191970" points="72.464,-382.3907 75.9639,-392.3907 79.464,-382.3907 72.464,-382.3907"/>
 </g>
-<!-- Node9 -->
+<!-- Node4 -->
 <g id="node4" class="node">
-<title>Node9</title>
-<g id="a_node4"><a xlink:href="a00319.html" target="_top" xlink:title="{CO_Main_DB_Record\n|+ $s_table_name\l# $_owner_id\l# $_tags\l&#45; $_raw_payload\l|+ __construct()\l+ load_from_db()\l+ set_owner_id()\l+ set_tags()\l+ set_tag()\l+ get_payload()\l+ set_payload()\l+ owner_id()\l+ tags()\l# _default_setup()\l# _build_parameter_array()\l}">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="a00319.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="7.3779,-683.5 7.3779,-867.5 144.5498,-867.5 144.5498,-683.5 7.3779,-683.5"/>
 <text text-anchor="middle" x="75.9639" y="-855.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">CO_Main_DB_Record</text>
 <polyline fill="none" stroke="#000000" points="7.3779,-849.5 144.5498,-849.5 "/>
@@ -170,16 +173,16 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node8 -->
+<!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
-<title>Node9&#45;&gt;Node8</title>
+<title>Node4&#45;&gt;Node3</title>
 <path fill="none" stroke="#191970" d="M75.9639,-673.3044C75.9639,-664.5968 75.9639,-655.723 75.9639,-646.8533"/>
 <polygon fill="none" stroke="#191970" points="72.464,-673.4398 75.9639,-683.4398 79.464,-673.4398 72.464,-673.4398"/>
 </g>
-<!-- Node10 -->
+<!-- Node5 -->
 <g id="node5" class="node">
-<title>Node10</title>
-<g id="a_node5"><a xlink:href="a00311.html" target="_top" xlink:title="{A_CO_DB_Table_Base\n|+ $class_description\l+ $instance_description\l+ $last_access\l+ $name\l+ $read_security_id\l+ $write_security_id\l+ $context\l+ $error\l# $_db_object\l# $_id\l# $_batch_mode\l|+ __construct()\l+ set_batch_mode()\l+ clear_batch_mode()\l+ load_from_db()\l+ id()\l+ lock()\l+ locked()\l+ danger_will_robinson\l_danger_clear_id()\l+ user_can_read()\l+ user_can_write()\land 9 more...\l# _default_setup()\l# _build_parameter_array()\l# _badger_serialize()\l# _badger_unserialize()\l# _write_to_db()\l# _seppuku()\l}">
+<title>Node5</title>
+<g id="a_node5"><a xlink:href="a00311.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="7.3779,-904.5 7.3779,-1228.5 144.5498,-1228.5 144.5498,-904.5 7.3779,-904.5"/>
 <text text-anchor="middle" x="75.9639" y="-1216.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">A_CO_DB_Table_Base</text>
 <polyline fill="none" stroke="#000000" points="7.3779,-1210.5 144.5498,-1210.5 "/>
@@ -216,16 +219,16 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node10&#45;&gt;Node9 -->
+<!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
-<title>Node10&#45;&gt;Node9</title>
+<title>Node5&#45;&gt;Node4</title>
 <path fill="none" stroke="#191970" d="M75.9639,-894.1754C75.9639,-885.1593 75.9639,-876.2855 75.9639,-867.6991"/>
 <polygon fill="none" stroke="#191970" points="72.464,-894.4076 75.9639,-904.4076 79.464,-894.4077 72.464,-894.4076"/>
 </g>
-<!-- Node11 -->
+<!-- Node6 -->
 <g id="node6" class="node">
-<title>Node11</title>
-<g id="a_node6"><a xlink:href="a00283.html" target="_top" xlink:title="{tCO_Collection\n|# $_container\l|+ reload_collection()\l+ insertElement()\l+ insertElements()\l+ deleteElements()\l+ deleteElement()\l+ deleteThisElement()\l+ appendElement()\l+ appendElements()\l+ deleteAllChildren()\l+ indexOfThisElement()\land 10 more...\l# _scrub()\l# _set_up_container()\l}">
+<title>Node6</title>
+<g id="a_node6"><a xlink:href="a00283.html" target="_top" xlink:title=" ">
 <polygon fill="#ffffff" stroke="#000000" points="160.3052,-146.5 160.3052,-320.5 281.6226,-320.5 281.6226,-146.5 160.3052,-146.5"/>
 <text text-anchor="middle" x="220.9639" y="-308.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tCO_Collection</text>
 <polyline fill="none" stroke="#000000" points="160.3052,-302.5 281.6226,-302.5 "/>
@@ -247,9 +250,9 @@ var sectionId = 'dynsection-1';
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node6 -->
+<!-- Node6&#45;&gt;Node1 -->
 <g id="edge5" class="edge">
-<title>Node11&#45;&gt;Node6</title>
+<title>Node6&#45;&gt;Node1</title>
 <path fill="none" stroke="#191970" d="M184.9951,-136.9262C176.7539,-114.7993 168.4767,-92.5754 161.8442,-74.7679"/>
 <polygon fill="none" stroke="#191970" points="181.7497,-138.2406 188.5199,-146.3901 188.3094,-135.7974 181.7497,-138.2406"/>
 </g>
