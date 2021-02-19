@@ -26,15 +26,15 @@ var NAVTREE =
 [
   [ "BAOBAB", "index.html", [
     [ "THE BAOBAB SERVER", "index.html", null ],
-    [ "BASELINE", "a00360.html", null ],
-    [ "PEOPLE", "a00361.html", null ],
-    [ "PLACES", "a00362.html", null ],
-    [ "THINGS", "a00363.html", null ],
-    [ "BASALT", "a00364.html", null ],
-    [ "ANDISOL", "a00365.html", null ],
-    [ "COBRA", "a00366.html", null ],
-    [ "CHAMELEON", "a00367.html", null ],
-    [ "BADGER", "a00368.html", null ],
+    [ "BASELINE", "a00357.html", null ],
+    [ "PEOPLE", "a00358.html", null ],
+    [ "PLACES", "a00359.html", null ],
+    [ "THINGS", "a00360.html", null ],
+    [ "BASALT", "a00361.html", null ],
+    [ "ANDISOL", "a00362.html", null ],
+    [ "COBRA", "a00363.html", null ],
+    [ "CHAMELEON", "a00364.html", null ],
+    [ "BADGER", "a00365.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -58,10 +58,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"a00077.html",
-"a00219.html#adb4e6414ba4d1de46b9fa1743431c090",
-"a00299.html#ac3ecd5fe3609b734e6a95373dca663bd",
-"a00355.html#a4dad096e16f4129b2a6eb4b1656f3240"
+"a00083.html",
+"a00216.html#ac8fe5125ca6319932d5071e01faf2d0c",
+"a00296.html",
+"a00348.html#ab52df295d1483cdf21b2cac5ac742ab2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

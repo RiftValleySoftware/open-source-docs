@@ -1,0 +1,26 @@
+var a00324 =
+[
+    [ "__construct", "a00324.html#a865e6eb15a2c269d7d124be37c75e3a4", null ],
+    [ "add_personal_token_from_current_login", "a00324.html#af458572a6022e0c588e960823dcec3fc", null ],
+    [ "count_all_login_objects_with_access", "a00324.html#a744a82a9eac23300f9e55127859d4ead", null ],
+    [ "get_all_login_ids", "a00324.html#a937e331e12bd0f22d302133c1ac88c5e", null ],
+    [ "get_all_login_objects", "a00324.html#ad75f2ed511a4eae172f9f2acd73f2de9", null ],
+    [ "get_all_login_objects_with_access", "a00324.html#af39966b2bf3f43bc640b013ec5a472be", null ],
+    [ "get_all_personal_ids_except_for_id", "a00324.html#ade2e3afd7cb253a8d3683cf0bb043674", null ],
+    [ "get_all_tokens", "a00324.html#a89e505e3f61a75590a72969b16e97bea", null ],
+    [ "get_all_user_objects_with_access", "a00324.html#a8c467296937e33f1d083ae9b68141108", null ],
+    [ "get_all_visible_logins", "a00324.html#a8770700fd4e585cf0408b787b5ee16f1", null ],
+    [ "get_credentials_by_api_key", "a00324.html#a4e2e3180a3be3bbe410fa3066572a8a0", null ],
+    [ "get_initial_record_by_id", "a00324.html#ab7c6d41fc8b4b571f313be2c8b03b17d", null ],
+    [ "get_initial_record_by_login_id", "a00324.html#a5d73fc994a204fe7362e8ca77df1b344", null ],
+    [ "get_logins_that_have_any_of_my_ids", "a00324.html#aa6ac229bf24cadb124b6259aaea01a3c", null ],
+    [ "get_logins_with_personal_ids", "a00324.html#a8f2e833c2a2e12ecc0e2bde7fa4410f6", null ],
+    [ "get_multiple_records_by_login_id", "a00324.html#af7f9180938518c8325b3d4ba52112e02", null ],
+    [ "get_personal_ids_for_id", "a00324.html#a6ce064d159d441c79385d5139b5986b2", null ],
+    [ "get_security_ids_for_id", "a00324.html#a1e4ad384b5cc041d7c17278b2e9be7c3", null ],
+    [ "get_single_record_by_login_id", "a00324.html#ab01692597b11329b0d63096b10e1f473", null ],
+    [ "i_have_all_ids", "a00324.html#a3cd67075c3669e321c903e1b935d37a4", null ],
+    [ "is_this_a_login_id", "a00324.html#a5d709d838d500d6965be532219f0488b", null ],
+    [ "is_this_a_personal_id", "a00324.html#ab7aea713851495597bc2bd8cfa7d022f", null ],
+    [ "remove_personal_token_from_this_login", "a00324.html#aa7776ee537fc2c46dee920bb56d7b24a", null ]
+];

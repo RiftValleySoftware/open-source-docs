@@ -1,5 +1,6 @@
 var a00176 =
 [
-    [ "CO_Security_Login", "a00343.html", "a00343" ],
-    [ "if", "a00176.html#a3634aac4b3b266196264649526b8336b", null ]
+    [ "CO_Access", "a00352.html", "a00352" ],
+    [ "__BADGER_VERSION__", "a00176.html#a3f5839931ef01a2516f08b8b4d45b9dc", null ],
+    [ "if", "a00176.html#aae425e92e7e8e7d6349fca1955c27e15", null ]
 ];

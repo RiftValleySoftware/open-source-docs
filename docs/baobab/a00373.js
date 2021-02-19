@@ -1,6 +1,6 @@
 var a00373 =
 [
-    [ "CO_CHAMELEON_Lang_Common", "a00291.html", "a00291" ],
+    [ "CO_COBRA_Lang_Common", "a00240.html", "a00240" ],
     [ "$g_lang_override", "a00373.html#a7dcd1b7df16fba53e494980a07ea33d9", null ],
     [ "$lang_common_file", "a00373.html#aacc39692cbe72900e03a27a0393edf6b", null ],
     [ "$lang_file", "a00373.html#aac04745a3b904bdf407b6f775d836286", null ],
