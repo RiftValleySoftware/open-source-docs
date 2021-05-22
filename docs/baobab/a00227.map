@@ -1,7 +1,7 @@
 <map id="CO_Cobra_Login" name="CO_Cobra_Login">
-<area shape="rect" id="node1" title=" " alt="" coords="18,996,175,1123"/>
-<area shape="rect" id="node5" href="$a00232.html" title=" " alt="" coords="22,1171,171,1284"/>
-<area shape="rect" id="node2" href="$a00340.html" title=" " alt="" coords="5,635,188,948"/>
-<area shape="rect" id="node3" href="$a00328.html" title=" " alt="" coords="5,487,188,587"/>
-<area shape="rect" id="node4" href="$a00308.html" title=" " alt="" coords="5,5,188,439"/>
+<area shape="rect" id="node1" title=" " alt="" coords="17,1071,171,1207"/>
+<area shape="rect" id="node5" href="$a00232.html" title=" " alt="" coords="21,1255,167,1376"/>
+<area shape="rect" id="node2" href="$a00340.html" title=" " alt="" coords="5,681,183,1023"/>
+<area shape="rect" id="node3" href="$a00328.html" title=" " alt="" coords="6,527,182,633"/>
+<area shape="rect" id="node4" href="$a00308.html" title=" " alt="" coords="6,5,182,479"/>
 </map>

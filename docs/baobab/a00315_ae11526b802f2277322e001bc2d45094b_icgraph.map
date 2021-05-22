@@ -1,5 +1,0 @@
-<map id="CO_Main_Data_DB\get_accurate_distance" name="CO_Main_Data_DB\get_accurate_distance">
-<area shape="rect" id="node1" title="Uses the Vincenty calculation to determine the distance (in Kilometers) between the two given lat/lon..." alt="" coords="240,37,401,76"/>
-<area shape="rect" id="node2" href="$a00335.html#a7d74a483ed93d6650b54e57654e2a0c0" title=" " alt="" coords="23,5,174,44"/>
-<area shape="rect" id="node3" href="$a00315.html#a303048d406814c066d27fda70de4ff02" title=" " alt="" coords="5,68,192,107"/>
-</map>

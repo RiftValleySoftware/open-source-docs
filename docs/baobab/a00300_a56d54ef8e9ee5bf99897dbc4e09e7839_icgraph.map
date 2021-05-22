@@ -1,7 +1,7 @@
 <map id="CO_Chameleon_Utils\call_curl" name="CO_Chameleon_Utils\call_curl">
-<area shape="rect" id="node1" title="This is a function that returns the results of an HTTP call to a URI. It is a lot more secure than fi..." alt="" coords="469,61,619,100"/>
-<area shape="rect" id="node2" href="$a00208.html#a90b9f5c8286479f877a1a81193eb3b4b" title=" " alt="" coords="237,5,413,44"/>
-<area shape="rect" id="node4" href="$a00260.html#ae074113629e04696f13a4e6c5316124a" title=" " alt="" coords="230,68,421,93"/>
-<area shape="rect" id="node5" href="$a00260.html#a1319c3b11d29aae2bb70fd8aeddfee93" title=" " alt="" coords="235,117,415,143"/>
-<area shape="rect" id="node3" href="$a00208.html#a66729507ef35bcc83810d707412207fb" title=" " alt="" coords="5,5,182,44"/>
+<area shape="rect" id="node1" title="This is a function that returns the results of an HTTP call to a URI. It is a lot more secure than fi..." alt="" coords="463,64,612,105"/>
+<area shape="rect" id="node2" href="$a00208.html#a90b9f5c8286479f877a1a81193eb3b4b" title=" " alt="" coords="234,5,409,47"/>
+<area shape="rect" id="node4" href="$a00260.html#ae074113629e04696f13a4e6c5316124a" title=" " alt="" coords="228,71,415,98"/>
+<area shape="rect" id="node5" href="$a00260.html#a1319c3b11d29aae2bb70fd8aeddfee93" title=" " alt="" coords="233,122,410,149"/>
+<area shape="rect" id="node3" href="$a00208.html#a66729507ef35bcc83810d707412207fb" title=" " alt="" coords="5,5,180,47"/>
 </map>

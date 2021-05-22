@@ -259,6 +259,11 @@ $(document).ready(function(){initNavTree('a00081.html',''); initResizable(); });
 </pre><p> Will both create a simple, default login with a login ID string of <code>"SomeRandomLoginString"</code>.</p>
 <h2>PUT CALLS </h2>
 <p>Use PUT to update existing resources. The modifications will be made to the entire found set of resources (so you are not just restricted to one at a time, like POST).</p>
+<h2>SPECIAL PUT CALLS FOR PERSONAL TOKENS </h2>
+<p>You can assign and remove personal tokens, via a couple of special PUT calls: </p><pre class="fragment">{PUT} http[s]://example.com/entrypoint.php/json/people/personal_tokens/[INTEGER PERSONAL IDS CSV]/?assign_tokens_to_user=IntegerIDOfTargetUserLogin
+{PUT} http[s]://example.com/entrypoint.php/json/people/personal_tokens/[INTEGER PERSONAL IDS CSV]/?remove_tokens_from_user=IntegerIDOfTargetUserLogin
+</pre><p> "`IntegerIDOfTargetUserLogin`" is the integer ID of the user <em>login</em> (not the user data record). If you need to get a user login ID from a user data record, the <code>write_token</code> is usually the one for the login that is associated with the user.</p>
+<p>These calls will assign or remove all of the tokens in the list, as long as they are personal tokens that belong to the currently logged-in user.</p>
 <h2>POST AND PUT QUERY PARAMETERS </h2>
 <p>Instead of sending fully-formed JSON or XML data to the server, we use query parameters to specify new values for resource data. We use PUT to change existing resources, and POST to create new ones, and they can use the same query parameters to indicate new values for the resources.</p>
 <p>In the case of PUT, it is possible to apply a common set of values to multiple resources, with invalid or non-existent resource field values being simply ignored (for example, a field may apply to some of the requested resources, but not all, so it is applied to the ones to which it applies, and is not applied to the resources to which it does not apply).</p>
