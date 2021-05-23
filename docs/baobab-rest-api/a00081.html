@@ -157,6 +157,10 @@ $(document).ready(function(){initNavTree('a00081.html',''); initResizable(); });
 </pre><p> Gets the detailed dumps for the three people associated with the logins accessed via <code>bob</code>, <code>Theodore</code> and <code>a71C3</code>, in XML.</p>
 <p><b>NOTE:</b> If the login is not associated with a user, or your login does not have permission to view both records, the login ID/login string will be ignored.</p>
 <p><b>NOTE:</b> You can have <b>EITHER</b> a CSV list of strings (login IDs) <b>OR</b> integers (login record IDs); but not a combination of both.</p>
+<ul>
+<li><code>get_all_visible_users</code></li>
+</ul>
+<p>This is a simple request to get a "fast dump" of user IDs, and their name column.</p>
 <h2>logins </h2>
 <p>We can also get login record information; which we do by appending <code>logins</code> to the <code>people</code> command, like so: </p><pre class="fragment">{GET} http[s]://{SERVER URL}/{json|xml}/people/logins/[{[INTEGER LOGIN IDS CSV]}|{[STRING LOGIN IDS CSV]}][?show_details]
 </pre><p> This URI is followed by a CSV list of numeric login record IDs or string login IDs, in exactly the same fashion as above. In this case, the returned data will be for login records, not user records.</p>
