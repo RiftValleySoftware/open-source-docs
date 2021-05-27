@@ -46,6 +46,7 @@ var a00216 =
     [ "get_multiple_data_records_by_id", "a00216.html#a2049c0886559fbbb210e43234457d823", null ],
     [ "get_object_for_key", "a00216.html#a5b604eff1331261b2de82f887f2aeb46", null ],
     [ "get_personal_security_ids", "a00216.html#af5b43159fb014c94ed03eff65c8bbb81", null ],
+    [ "get_remaining_time", "a00216.html#a2563192e93c2910ea8f992c8181affdc", null ],
     [ "get_security_access_class_by_id", "a00216.html#a8b6a3997324683bb23418f2e86467128", null ],
     [ "get_single_data_record_by_id", "a00216.html#a640727057880770819ae4578b5f443ce", null ],
     [ "get_user_from_login", "a00216.html#a61b9a275c4b8b824d9a2b3aadd421bf7", null ],

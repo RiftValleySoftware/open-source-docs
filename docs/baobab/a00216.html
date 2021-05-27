@@ -104,7 +104,8 @@ $(document).ready(function(){initNavTree('a00216.html',''); initResizable(); });
 <div class="dynheader">
 Collaboration diagram for CO_Andisol:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00214.svg" width="198" height="308"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00214.svg" width="198" height="308"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -241,6 +242,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a86dffe4fa88e6ee8d473453e7676ff81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2210c5fdd55fc47dc934e287db65881e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00216.html#a2210c5fdd55fc47dc934e287db65881e">get_logins_that_have_any_of_my_ids</a> ()</td></tr>
 <tr class="separator:a2210c5fdd55fc47dc934e287db65881e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2563192e93c2910ea8f992c8181affdc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00216.html#a2563192e93c2910ea8f992c8181affdc">get_remaining_time</a> ($in_login_id=NULL)</td></tr>
+<tr class="separator:a2563192e93c2910ea8f992c8181affdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -3140,11 +3143,12 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00098_source.html#l00051">$_chameleon_instance</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a00098_source.html#l00067">_create_db_object()</a>, <a class="el" href="a00098_source.html#l01918">add_personal_token_from_current_login()</a>, <a class="el" href="a00098_source.html#l01755">can_i_see_this_data_record()</a>, <a class="el" href="a00098_source.html#l01768">can_i_see_this_security_record()</a>, <a class="el" href="a00098_source.html#l01816">check_login_exists_by_login_string()</a>, <a class="el" href="a00098_source.html#l01726">count_all_login_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01071">create_collection()</a>, <a class="el" href="a00098_source.html#l01105">delete_item_by_id()</a>, <a class="el" href="a00098_source.html#l01808">fetch_backup()</a>, <a class="el" href="a00098_source.html#l00481">generic_search()</a>, <a class="el" href="a00098_source.html#l01781">get_all_login_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01874">get_all_personal_ids_except_for_id()</a>, <a class="el" href="a00098_source.html#l01795">get_all_user_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01743">get_all_visible_logins()</a>, <a class="el" href="a00098_source.html#l01735">get_all_visible_users()</a>, <a class="el" href="a00098_source.html#l01712">get_available_tokens()</a>, <a class="el" href="a00098_source.html#l00367">get_data_access_class_by_id()</a>, <a class="el" href="a00098_source.html#l00280">get_login_item()</a>, <a class="el" href="a00098_source.html#l00302">get_login_item_by_login_string()</a>, <a class="el" href="a00098_source.html#l01942">get_logins_that_have_any_of_my_ids()</a>, <a class="el" href="a00098_source.html#l01886">get_logins_with_personal_ids()</a>, <a class="el" href="a00098_source.html#l01016">get_multiple_data_records_by_id()</a>, <a class="el" href="a00098_source.html#l01160">get_object_for_key()</a>, <a class="el" href="a00098_source.html#l01846">get_personal_security_ids()</a>, <a class="el" href="a00098_source.html#l00389">get_security_access_class_by_id()</a>, <a class="el" href="a00098_source.html#l01033">get_single_data_record_by_id()</a>, <a class="el" href="a00098_source.html#l00651">get_user_from_login()</a>, <a class="el" href="a00098_source.html#l01131">get_value_for_key()</a>, <a class="el" href="a00098_source.html#l00237">god()</a>, <a class="el" href="a00098_source.html#l00263">i_have_this_token()</a>, <a class="el" href="a00098_source.html#l01907">is_this_a_login_id()</a>, <a class="el" href="a00098_source.html#l01896">is_this_a_personal_id()</a>, <a class="el" href="a00098_source.html#l01150">key_is_unique()</a>, <a class="el" href="a00098_source.html#l00221">logged_in()</a>, <a class="el" href="a00098_source.html#l01829">make_new_blank_record()</a>, <a class="el" href="a00098_source.html#l01930">remove_personal_token_from_this_login()</a>, <a class="el" href="a00098_source.html#l01191">set_value_for_key()</a>, and <a class="el" href="a00098_source.html#l00213">valid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a00098_source.html#l00067">_create_db_object()</a>, <a class="el" href="a00098_source.html#l01918">add_personal_token_from_current_login()</a>, <a class="el" href="a00098_source.html#l01755">can_i_see_this_data_record()</a>, <a class="el" href="a00098_source.html#l01768">can_i_see_this_security_record()</a>, <a class="el" href="a00098_source.html#l01816">check_login_exists_by_login_string()</a>, <a class="el" href="a00098_source.html#l01726">count_all_login_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01071">create_collection()</a>, <a class="el" href="a00098_source.html#l01105">delete_item_by_id()</a>, <a class="el" href="a00098_source.html#l01808">fetch_backup()</a>, <a class="el" href="a00098_source.html#l00481">generic_search()</a>, <a class="el" href="a00098_source.html#l01781">get_all_login_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01874">get_all_personal_ids_except_for_id()</a>, <a class="el" href="a00098_source.html#l01795">get_all_user_objects_with_access()</a>, <a class="el" href="a00098_source.html#l01743">get_all_visible_logins()</a>, <a class="el" href="a00098_source.html#l01735">get_all_visible_users()</a>, <a class="el" href="a00098_source.html#l01712">get_available_tokens()</a>, <a class="el" href="a00098_source.html#l00367">get_data_access_class_by_id()</a>, <a class="el" href="a00098_source.html#l00280">get_login_item()</a>, <a class="el" href="a00098_source.html#l00302">get_login_item_by_login_string()</a>, <a class="el" href="a00098_source.html#l01942">get_logins_that_have_any_of_my_ids()</a>, <a class="el" href="a00098_source.html#l01886">get_logins_with_personal_ids()</a>, <a class="el" href="a00098_source.html#l01016">get_multiple_data_records_by_id()</a>, <a class="el" href="a00098_source.html#l01160">get_object_for_key()</a>, <a class="el" href="a00098_source.html#l01846">get_personal_security_ids()</a>, <a class="el" href="a00098_source.html#l01950">get_remaining_time()</a>, <a class="el" href="a00098_source.html#l00389">get_security_access_class_by_id()</a>, <a class="el" href="a00098_source.html#l01033">get_single_data_record_by_id()</a>, <a class="el" href="a00098_source.html#l00651">get_user_from_login()</a>, <a class="el" href="a00098_source.html#l01131">get_value_for_key()</a>, <a class="el" href="a00098_source.html#l00237">god()</a>, <a class="el" href="a00098_source.html#l00263">i_have_this_token()</a>, <a class="el" href="a00098_source.html#l01907">is_this_a_login_id()</a>, <a class="el" href="a00098_source.html#l01896">is_this_a_personal_id()</a>, <a class="el" href="a00098_source.html#l01150">key_is_unique()</a>, <a class="el" href="a00098_source.html#l00221">logged_in()</a>, <a class="el" href="a00098_source.html#l01829">make_new_blank_record()</a>, <a class="el" href="a00098_source.html#l01930">remove_personal_token_from_this_login()</a>, <a class="el" href="a00098_source.html#l01191">set_value_for_key()</a>, and <a class="el" href="a00098_source.html#l00213">valid()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00216_acda267f1d6a8e496e167ed46fe590dc6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00216_acda267f1d6a8e496e167ed46fe590dc6_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -3520,6 +3524,44 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="a00216_af5b43159fb014c94ed03eff65c8bbb81_cgraph.svg" width="414" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2563192e93c2910ea8f992c8181affdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2563192e93c2910ea8f992c8181affdc">&#9670;&nbsp;</a></span>get_remaining_time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CO_Andisol::get_remaining_time </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$in_login_id</em> = <code>NULL</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>a floating-point number, with the remaining login time, in seconds. -1 means no timeout. 0 means time's up. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$in_login_id</td><td>The integer login ID to check. If not-NULL, then the ID of a login instance. It must be one that the current user can see. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="a00098_source.html#l01950">1950</a> of file <a class="el" href="a00098_source.html">co_andisol.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l01951"></a><span class="lineno"> 1951</span>&#160;                                      {</div>
+<div class="line"><a name="l01952"></a><span class="lineno"> 1952</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="a00216.html#acda267f1d6a8e496e167ed46fe590dc6">get_chameleon_instance</a>()-&gt;get_remaining_time($in_login_id);</div>
+<div class="line"><a name="l01953"></a><span class="lineno"> 1953</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="a00098_source.html#l00201">get_chameleon_instance()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00216_a2563192e93c2910ea8f992c8181affdc_cgraph.svg" width="452" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>

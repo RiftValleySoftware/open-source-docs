@@ -106,12 +106,14 @@ $(document).ready(function(){initNavTree('a00340.html',''); initResizable(); });
 <div class="dynheader">
 Inheritance diagram for CO_Security_Login:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00339.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00339.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Collaboration diagram for CO_Security_Login:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00338.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="a00338.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -154,6 +156,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac4f0c16cb8cf1e2151451bf4d5cb2238"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5c815210d09779bd16fc72ddd0fce59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00340.html#aa5c815210d09779bd16fc72ddd0fce59">is_api_key_valid</a> ( $in_api_key)</td></tr>
 <tr class="separator:aa5c815210d09779bd16fc72ddd0fce59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37929d54934c063f8f78a3527cbbbba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00340.html#ae37929d54934c063f8f78a3527cbbbba">get_remaining_time</a> ()</td></tr>
+<tr class="separator:ae37929d54934c063f8f78a3527cbbbba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecb158735e3a185c0857c44bf60f45f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00340.html#aecb158735e3a185c0857c44bf60f45f0">get_api_key</a> ()</td></tr>
 <tr class="separator:aecb158735e3a185c0857c44bf60f45f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad151766c8149ddda3b23f6f1ac4ac6c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00340.html#ad151766c8149ddda3b23f6f1ac4ac6c2">get_api_key_age_in_seconds</a> ()</td></tr>
@@ -797,19 +801,19 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00845">845</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                                                              {</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        $ret = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;add_personal_token_from_current_login($this-&gt;_id, $in_id);</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160; </div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error) {</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;            $this-&gt;error = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error;</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;            $this-&gt;<a class="code" href="a00308.html#aa5e1bc5570c817cfe3ddeb67003d4f45">reload_from_db</a>();</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;            <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;        }</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160; </div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00870">870</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;                                                              {</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        $ret = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;add_personal_token_from_current_login($this-&gt;_id, $in_id);</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160; </div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error) {</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;            $this-&gt;error = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            $this-&gt;<a class="code" href="a00308.html#aa5e1bc5570c817cfe3ddeb67003d4f45">reload_from_db</a>();</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;            <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        }</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160; </div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    }</div>
 <div class="ttc" id="aa00308_html_aa5e1bc5570c817cfe3ddeb67003d4f45"><div class="ttname"><a href="a00308.html#aa5e1bc5570c817cfe3ddeb67003d4f45">A_CO_DB_Table_Base\reload_from_db</a></div><div class="ttdeci">reload_from_db()</div><div class="ttdef"><b>Definition:</b> <a href="a00149_source.html#l00479">a_co_db_table_base.class.php:479</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00494">A_CO_DB_Table_Base\get_access_object()</a>, and <a class="el" href="a00149_source.html#l00479">A_CO_DB_Table_Base\reload_from_db()</a>.</p>
@@ -838,12 +842,12 @@ Here is the call graph for this function:</div>
 <p>Removes the API Key.</p>
 <dl class="section return"><dt>Returns</dt><dd>true, if the operation was successful (even if there was no previous key). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00833">833</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;                                    {</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;        $this-&gt;_api_key = NULL;</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;        </div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="a00308.html#a7487697640051c6661b8cdca6f109959">update_db</a>();</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00858">858</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                                    {</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        $this-&gt;_api_key = NULL;</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        </div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="a00308.html#a7487697640051c6661b8cdca6f109959">update_db</a>();</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00460">A_CO_DB_Table_Base\update_db()</a>.</p>
 <div class="dynheader">
@@ -873,45 +877,45 @@ Here is the call graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="a00308.html#a6fa77e9fd744981d4a9d7cac37ddf1bf">A_CO_DB_Table_Base</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00924">924</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;                                     {</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<span class="keywordtype">id</span>() != CO_Config::god_mode_id()) {</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;            <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00340.html#aba256552040dd8af7196f0fea2a58609">user_can_write</a>()) {</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;                $user_object = $this-&gt;<a class="code" href="a00340.html#a30db2d11dd81390f5a671bcd32835544">get_user_object</a>();</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;            </div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                <span class="keywordflow">if</span> (isset($user_object) &amp;&amp; ($user_object instanceof <a class="code" href="a00276.html">CO_User_Collection</a>)) {</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                    $user_object-&gt;set_login(NULL);</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;                }</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;            </div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;                $this-&gt;read_security_id = 0;</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;                $this-&gt;write_security_id = -1;</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                $this-&gt;api_key = NULL;</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;                $this-&gt;context = NULL;</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;                $this-&gt;name = NULL;</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;                $this-&gt;login_id = NULL;</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                $this-&gt;_ids = Array();</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;                $this-&gt;_override_access_class = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                $ret = $this-&gt;<a class="code" href="a00308.html#adda14b544e11934db3bf8130aeea0610">_write_to_db</a>();</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;                <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;            }</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;            $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#a179b17f25bfaeb7201ba815d8621544e">CO_Lang_Common::$login_error_code_attempt_to_delete_god</a>,</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;                                            <a class="code" href="a00348.html#a263c4158e158788853c18e0b2ae3c512">CO_Lang::$login_error_name_attempt_to_delete_god</a>,</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;                                            <a class="code" href="a00348.html#a343f9339d29c64e191892e5da9d6c619">CO_Lang::$login_error_desc_attempt_to_delete_god</a></div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;                                        );</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        }</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00949">949</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;                                     {</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<span class="keywordtype">id</span>() != CO_Config::god_mode_id()) {</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;            <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00340.html#aba256552040dd8af7196f0fea2a58609">user_can_write</a>()) {</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;                $user_object = $this-&gt;<a class="code" href="a00340.html#a30db2d11dd81390f5a671bcd32835544">get_user_object</a>();</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;            </div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                <span class="keywordflow">if</span> (isset($user_object) &amp;&amp; ($user_object instanceof <a class="code" href="a00276.html">CO_User_Collection</a>)) {</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;                    $user_object-&gt;set_login(NULL);</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;                }</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;            </div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;                $this-&gt;read_security_id = 0;</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;                $this-&gt;write_security_id = -1;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;                $this-&gt;api_key = NULL;</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;                $this-&gt;context = NULL;</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;                $this-&gt;name = NULL;</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;                $this-&gt;login_id = NULL;</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;                $this-&gt;_ids = Array();</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;                $this-&gt;_override_access_class = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;                $ret = $this-&gt;<a class="code" href="a00308.html#adda14b544e11934db3bf8130aeea0610">_write_to_db</a>();</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;                <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            }</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;            $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#a179b17f25bfaeb7201ba815d8621544e">CO_Lang_Common::$login_error_code_attempt_to_delete_god</a>,</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;                                            <a class="code" href="a00348.html#a263c4158e158788853c18e0b2ae3c512">CO_Lang::$login_error_name_attempt_to_delete_god</a>,</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;                                            <a class="code" href="a00348.html#a343f9339d29c64e191892e5da9d6c619">CO_Lang::$login_error_desc_attempt_to_delete_god</a></div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;                                        );</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;        }</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    }</div>
 <div class="ttc" id="aa00276_html"><div class="ttname"><a href="a00276.html">CO_User_Collection</a></div><div class="ttdef"><b>Definition:</b> <a href="a00131_source.html#l00068">co_user_collection.class.php:68</a></div></div>
 <div class="ttc" id="aa00308_html_adda14b544e11934db3bf8130aeea0610"><div class="ttname"><a href="a00308.html#adda14b544e11934db3bf8130aeea0610">A_CO_DB_Table_Base\_write_to_db</a></div><div class="ttdeci">_write_to_db()</div><div class="ttdef"><b>Definition:</b> <a href="a00149_source.html#l00133">a_co_db_table_base.class.php:133</a></div></div>
 <div class="ttc" id="aa00340_html_a30db2d11dd81390f5a671bcd32835544"><div class="ttname"><a href="a00340.html#a30db2d11dd81390f5a671bcd32835544">CO_Security_Login\get_user_object</a></div><div class="ttdeci">get_user_object()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00715">co_security_login.class.php:715</a></div></div>
-<div class="ttc" id="aa00340_html_aba256552040dd8af7196f0fea2a58609"><div class="ttname"><a href="a00340.html#aba256552040dd8af7196f0fea2a58609">CO_Security_Login\user_can_write</a></div><div class="ttdeci">user_can_write()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00895">co_security_login.class.php:895</a></div></div>
+<div class="ttc" id="aa00340_html_aba256552040dd8af7196f0fea2a58609"><div class="ttname"><a href="a00340.html#aba256552040dd8af7196f0fea2a58609">CO_Security_Login\user_can_write</a></div><div class="ttdeci">user_can_write()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00920">co_security_login.class.php:920</a></div></div>
 <div class="ttc" id="aa00344_html_a179b17f25bfaeb7201ba815d8621544e"><div class="ttname"><a href="a00344.html#a179b17f25bfaeb7201ba815d8621544e">CO_Lang_Common\$login_error_code_attempt_to_delete_god</a></div><div class="ttdeci">static $login_error_code_attempt_to_delete_god</div><div class="ttdef"><b>Definition:</b> <a href="a00367_source.html#l00060">common.inc.php:60</a></div></div>
 <div class="ttc" id="aa00348_html_a263c4158e158788853c18e0b2ae3c512"><div class="ttname"><a href="a00348.html#a263c4158e158788853c18e0b2ae3c512">CO_Lang\$login_error_name_attempt_to_delete_god</a></div><div class="ttdeci">static $login_error_name_attempt_to_delete_god</div><div class="ttdef"><b>Definition:</b> <a href="a00382_source.html#l00070">en.php:70</a></div></div>
 <div class="ttc" id="aa00348_html_a343f9339d29c64e191892e5da9d6c619"><div class="ttname"><a href="a00348.html#a343f9339d29c64e191892e5da9d6c619">CO_Lang\$login_error_desc_attempt_to_delete_god</a></div><div class="ttdeci">static $login_error_desc_attempt_to_delete_god</div><div class="ttdef"><b>Definition:</b> <a href="a00382_source.html#l00071">en.php:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="a00367_source.html#l00060">CO_Lang_Common\$login_error_code_attempt_to_delete_god</a>, <a class="el" href="a00382_source.html#l00071">CO_Lang\$login_error_desc_attempt_to_delete_god</a>, <a class="el" href="a00382_source.html#l00070">CO_Lang\$login_error_name_attempt_to_delete_god</a>, <a class="el" href="a00149_source.html#l00133">A_CO_DB_Table_Base\_write_to_db()</a>, <a class="el" href="a00173_source.html#l00715">get_user_object()</a>, and <a class="el" href="a00173_source.html#l00895">user_can_write()</a>.</p>
+<p class="reference">References <a class="el" href="a00367_source.html#l00060">CO_Lang_Common\$login_error_code_attempt_to_delete_god</a>, <a class="el" href="a00382_source.html#l00071">CO_Lang\$login_error_desc_attempt_to_delete_god</a>, <a class="el" href="a00382_source.html#l00070">CO_Lang\$login_error_name_attempt_to_delete_god</a>, <a class="el" href="a00149_source.html#l00133">A_CO_DB_Table_Base\_write_to_db()</a>, <a class="el" href="a00173_source.html#l00715">get_user_object()</a>, and <a class="el" href="a00173_source.html#l00920">user_can_write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -936,49 +940,50 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>a string, with the API key, if the key is still valid. NULL, otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00769">769</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                                  {</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        $ret = NULL;</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    </div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <span class="keywordflow">if</span> (isset($this-&gt;_api_key) &amp;&amp; $this-&gt;_api_key) {</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;            $api_expl = explode(<span class="stringliteral">&#39; - &#39;</span>, trim($this-&gt;_api_key));</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;            $my_ip = NULL;</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160; </div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;            <span class="comment">// God Mode gets a different timeout.</span></div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;            $timeout = floatval($this-&gt;<a class="code" href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">i_am_a_god</a>() ? CO_Config::$god_session_timeout_in_seconds : CO_Config::$session_timeout_in_seconds);</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;            </div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;            <span class="comment">// We first check to make sure that we are still within the time window. If not, then all bets are off.</span></div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            <span class="keywordflow">if</span> (isset($api_expl[1]) &amp;&amp; ((microtime(<span class="keyword">true</span>) - floatval($api_expl[1])) &lt;= $timeout)) {</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                <span class="keywordflow">if</span> (isset(CO_Config::$api_key_includes_ip_address) &amp;&amp; CO_Config::$api_key_includes_ip_address) {    <span class="comment">// See if we are also checking the IP address.</span></div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                    $my_ip = strtolower(strval($_SERVER[<span class="stringliteral">&#39;REMOTE_ADDR&#39;</span>]));</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                    <span class="keywordflow">if</span> (isset($api_expl[2])) {</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                        <span class="keywordflow">if</span> ($api_expl[2] == $my_ip) {</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                            $ret = $api_expl[0];</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                            $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;                                                            <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                                                            <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;                                                        );</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                        }</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                        $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;                                                        <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;                                                        <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                                                    );</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    }</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                    $ret = $api_expl[0];</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                }</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            } elseif ($api_expl[0]) {</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                                                <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;                                                <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                                            );</div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;            }</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        }</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        </div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00793">793</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                                  {</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;        $ret = NULL;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;    </div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;        <span class="keywordflow">if</span> (isset($this-&gt;_api_key) &amp;&amp; $this-&gt;_api_key) {</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            $api_expl = explode(<span class="stringliteral">&#39; - &#39;</span>, trim($this-&gt;_api_key));</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            $my_ip = NULL;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            <span class="comment">// God Mode gets a different timeout.</span></div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            $timeout = floatval($this-&gt;<a class="code" href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">i_am_a_god</a>() ? CO_Config::$god_session_timeout_in_seconds : CO_Config::$session_timeout_in_seconds);</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            </div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;            <span class="comment">// We first check to make sure that we are still within the time window. If not, then all bets are off.</span></div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            <span class="comment">// &lt;0 as a $timeout value means no timeout.</span></div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;            <span class="keywordflow">if</span> (isset($api_expl[1]) &amp;&amp; ((0 &gt; $timeout) || ((microtime(<span class="keyword">true</span>) - floatval($api_expl[1])) &lt;= $timeout))) {</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                <span class="keywordflow">if</span> (isset(CO_Config::$api_key_includes_ip_address) &amp;&amp; CO_Config::$api_key_includes_ip_address) {    <span class="comment">// See if we are also checking the IP address.</span></div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;                    $my_ip = strtolower(strval($_SERVER[<span class="stringliteral">&#39;REMOTE_ADDR&#39;</span>]));</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                    <span class="keywordflow">if</span> (isset($api_expl[2])) {</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;                        <span class="keywordflow">if</span> ($api_expl[2] == $my_ip) {</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                            $ret = $api_expl[0];</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;                        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;                            $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;                                                            <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;                                                            <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                                                        );</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                        }</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                        $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                                                        <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;                                                        <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                                                    );</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                    }</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;                } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;                    $ret = $api_expl[0];</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;                }</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;            } elseif ($api_expl[0]) {</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                $this-&gt;error = <span class="keyword">new</span> <a class="code" href="a00356.html">LGV_Error</a>(   <a class="code" href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common::$login_error_code_api_key_invalid</a>,</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                                                <a class="code" href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang::$login_error_name_api_key_invalid</a>,</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                                                <a class="code" href="a00348.html#af6e4bf8ab7f4ee4dfd1f52fb82276b4d">CO_Lang::$login_error_desc_api_key_invalid</a></div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                                            );</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;            }</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;        }</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;        </div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    }</div>
 <div class="ttc" id="aa00340_html_a03304936652c2c606c411c7c6a0f0c7f"><div class="ttname"><a href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">CO_Security_Login\i_am_a_god</a></div><div class="ttdeci">i_am_a_god()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00667">co_security_login.class.php:667</a></div></div>
 <div class="ttc" id="aa00344_html_ae8830e1780a165fdc775f5700251aab7"><div class="ttname"><a href="a00344.html#ae8830e1780a165fdc775f5700251aab7">CO_Lang_Common\$login_error_code_api_key_invalid</a></div><div class="ttdeci">static $login_error_code_api_key_invalid</div><div class="ttdef"><b>Definition:</b> <a href="a00367_source.html#l00057">common.inc.php:57</a></div></div>
 <div class="ttc" id="aa00348_html_ac0f5c1755c58292d1d0e2e3386e32057"><div class="ttname"><a href="a00348.html#ac0f5c1755c58292d1d0e2e3386e32057">CO_Lang\$login_error_name_api_key_invalid</a></div><div class="ttdeci">static $login_error_name_api_key_invalid</div><div class="ttdef"><b>Definition:</b> <a href="a00382_source.html#l00065">en.php:65</a></div></div>
@@ -986,7 +991,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00367_source.html#l00057">CO_Lang_Common\$login_error_code_api_key_invalid</a>, <a class="el" href="a00382_source.html#l00066">CO_Lang\$login_error_desc_api_key_invalid</a>, <a class="el" href="a00382_source.html#l00065">CO_Lang\$login_error_name_api_key_invalid</a>, and <a class="el" href="a00173_source.html#l00667">i_am_a_god()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00751">is_api_key_valid()</a>, and <a class="el" href="a00173_source.html#l00621">is_login_valid()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00769">get_remaining_time()</a>, <a class="el" href="a00173_source.html#l00751">is_api_key_valid()</a>, and <a class="el" href="a00173_source.html#l00621">is_login_valid()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -995,7 +1000,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00340_aecb158735e3a185c0857c44bf60f45f0_icgraph.svg" width="366" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00340_aecb158735e3a185c0857c44bf60f45f0_icgraph.svg" width="374" height="183"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -1016,17 +1022,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>an integer, with the number of seconds since the API key was created. -1 if there is no API key. This will return a value, even if the API key is present, but expired. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00816">816</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                                          {</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;        $ret = -1;</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;        </div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        <span class="keywordflow">if</span> (isset($this-&gt;_api_key) &amp;&amp; $this-&gt;_api_key) {</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;            list($api_key, $api_time) = explode(<span class="stringliteral">&#39; - &#39;</span>, trim($this-&gt;_api_key));</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;            $ret = ceil(microtime(<span class="keyword">true</span>) - floatval($api_time));</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        }</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        </div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00841">841</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;                                          {</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        $ret = -1;</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        </div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        <span class="keywordflow">if</span> (isset($this-&gt;_api_key) &amp;&amp; $this-&gt;_api_key) {</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;            list($api_key, $api_time) = explode(<span class="stringliteral">&#39; - &#39;</span>, trim($this-&gt;_api_key));</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;            $ret = ceil(microtime(<span class="keyword">true</span>) - floatval($api_time));</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        }</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        </div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1120,16 +1126,64 @@ Here is the caller graph for this function:</div>
 <p>This returns IDs that have our personal IDs.</p>
 <dl class="section return"><dt>Returns</dt><dd>an associative array of arrays of integer, keyed by integer. The key is the ID of the login, and the value is an array of integer, with the IDs that match. NULL, if an error. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00885">885</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;                                                         {</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;get_logins_that_have_any_of_my_ids();</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00910">910</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                                                         {</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">return</span> $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;get_logins_that_have_any_of_my_ids();</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00494">A_CO_DB_Table_Base\get_access_object()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="a00340_ac22dec6e0f6635875be19b61902c0a29_cgraph.svg" width="375" height="67"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae37929d54934c063f8f78a3527cbbbba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae37929d54934c063f8f78a3527cbbbba">&#9670;&nbsp;</a></span>get_remaining_time()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CO_Security_Login::get_remaining_time </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>a floating-point number, with the remaining login time, in seconds. -1 means no timeout. 0 means time's up. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00769">769</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                                         {</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        $ret = 0;</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        </div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <span class="comment">// Unless we are legally logged in, we will always get 0.</span></div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        <span class="keywordflow">if</span> ( $this-&gt;<a class="code" href="a00340.html#aecb158735e3a185c0857c44bf60f45f0">get_api_key</a>() ) {</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;            $timeout = floatval($this-&gt;<a class="code" href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">i_am_a_god</a>() ? CO_Config::$god_session_timeout_in_seconds : CO_Config::$session_timeout_in_seconds);</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;        </div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;            <span class="keywordflow">if</span> ( 0 &lt; $timeout ) {</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                <span class="keywordflow">if</span> (isset($this-&gt;_api_key) &amp;&amp; $this-&gt;_api_key) {</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                    list($api_key, $api_time) = explode(<span class="stringliteral">&#39; - &#39;</span>, trim($this-&gt;_api_key));</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                    $ret = $timeout - ceil((microtime(<span class="keyword">true</span>) - floatval($api_time)) * 10000) / 10000;</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                }</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                $ret = -1;</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;            }</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        }</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        </div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    }</div>
+<div class="ttc" id="aa00340_html_aecb158735e3a185c0857c44bf60f45f0"><div class="ttname"><a href="a00340.html#aecb158735e3a185c0857c44bf60f45f0">CO_Security_Login\get_api_key</a></div><div class="ttdeci">get_api_key()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00793">co_security_login.class.php:793</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="a00173_source.html#l00793">get_api_key()</a>, and <a class="el" href="a00173_source.html#l00667">i_am_a_god()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00340_ae37929d54934c063f8f78a3527cbbbba_cgraph.svg" width="564" height="82"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -1165,7 +1219,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00494">A_CO_DB_Table_Base\get_access_object()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00924">delete_from_db()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00949">delete_from_db()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1200,11 +1254,12 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <span class="keywordflow">return</span> intval(CO_Config::god_mode_id()) == intval($this-&gt;<span class="keywordtype">id</span>());</div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00769">get_api_key()</a>, and <a class="el" href="a00173_source.html#l00895">user_can_write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00793">get_api_key()</a>, <a class="el" href="a00173_source.html#l00769">get_remaining_time()</a>, and <a class="el" href="a00173_source.html#l00920">user_can_write()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="a00340_a03304936652c2c606c411c7c6a0f0c7f_icgraph.svg" width="602" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="a00340_a03304936652c2c606c411c7c6a0f0c7f_icgraph.svg" width="602" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -1288,12 +1343,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        </div>
 <div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
 <div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;    }</div>
-<div class="ttc" id="aa00340_html_aecb158735e3a185c0857c44bf60f45f0"><div class="ttname"><a href="a00340.html#aecb158735e3a185c0857c44bf60f45f0">CO_Security_Login\get_api_key</a></div><div class="ttdeci">get_api_key()</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00769">co_security_login.class.php:769</a></div></div>
 <div class="ttc" id="aa00344_html_a4c5d1729e945cf9d1b79358abdd4f203"><div class="ttname"><a href="a00344.html#a4c5d1729e945cf9d1b79358abdd4f203">CO_Lang_Common\$login_error_code_api_key_mismatch</a></div><div class="ttdeci">static $login_error_code_api_key_mismatch</div><div class="ttdef"><b>Definition:</b> <a href="a00367_source.html#l00058">common.inc.php:58</a></div></div>
 <div class="ttc" id="aa00348_html_abb977f5a1f492f2fcea97a165f14cf5e"><div class="ttname"><a href="a00348.html#abb977f5a1f492f2fcea97a165f14cf5e">CO_Lang\$login_error_desc_api_key_mismatch</a></div><div class="ttdeci">static $login_error_desc_api_key_mismatch</div><div class="ttdef"><b>Definition:</b> <a href="a00382_source.html#l00068">en.php:68</a></div></div>
 <div class="ttc" id="aa00348_html_ac6e48bfc874371be6152ec1f268374bc"><div class="ttname"><a href="a00348.html#ac6e48bfc874371be6152ec1f268374bc">CO_Lang\$login_error_name_api_key_mismatch</a></div><div class="ttdeci">static $login_error_name_api_key_mismatch</div><div class="ttdef"><b>Definition:</b> <a href="a00382_source.html#l00067">en.php:67</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="a00367_source.html#l00058">CO_Lang_Common\$login_error_code_api_key_mismatch</a>, <a class="el" href="a00382_source.html#l00068">CO_Lang\$login_error_desc_api_key_mismatch</a>, <a class="el" href="a00382_source.html#l00067">CO_Lang\$login_error_name_api_key_mismatch</a>, and <a class="el" href="a00173_source.html#l00769">get_api_key()</a>.</p>
+<p class="reference">References <a class="el" href="a00367_source.html#l00058">CO_Lang_Common\$login_error_code_api_key_mismatch</a>, <a class="el" href="a00382_source.html#l00068">CO_Lang\$login_error_desc_api_key_mismatch</a>, <a class="el" href="a00382_source.html#l00067">CO_Lang\$login_error_name_api_key_mismatch</a>, and <a class="el" href="a00173_source.html#l00793">get_api_key()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1429,7 +1483,7 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="aa00340_html_a5f57991e29b7602070594328676cfbb8"><div class="ttname"><a href="a00340.html#a5f57991e29b7602070594328676cfbb8">CO_Security_Login\_set_up_api_key</a></div><div class="ttdeci">_set_up_api_key( $key_length)</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00066">co_security_login.class.php:66</a></div></div>
 <div class="ttc" id="aa00340_html_a615bc63ad75ff08982eeb0c1a2da7243"><div class="ttname"><a href="a00340.html#a615bc63ad75ff08982eeb0c1a2da7243">CO_Security_Login\get_crypted_password</a></div><div class="ttdeci">get_crypted_password( $in_password_to_crypt=NULL)</div><div class="ttdef"><b>Definition:</b> <a href="a00173_source.html#l00601">co_security_login.class.php:601</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="a00173_source.html#l00066">_set_up_api_key()</a>, <a class="el" href="a00173_source.html#l00769">get_api_key()</a>, and <a class="el" href="a00173_source.html#l00601">get_crypted_password()</a>.</p>
+<p class="reference">References <a class="el" href="a00173_source.html#l00066">_set_up_api_key()</a>, <a class="el" href="a00173_source.html#l00793">get_api_key()</a>, and <a class="el" href="a00173_source.html#l00601">get_crypted_password()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1711,19 +1765,19 @@ Here is the call graph for this function:</div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00865">865</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;                                                              {</div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;        $ret = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;remove_personal_token_from_this_login($this-&gt;_id, $in_id);</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160; </div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error) {</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;            $this-&gt;error = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error;</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;            $this-&gt;<a class="code" href="a00308.html#aa5e1bc5570c817cfe3ddeb67003d4f45">reload_from_db</a>();</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;            <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;        }</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160; </div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00890">890</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;                                                              {</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        $ret = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;remove_personal_token_from_this_login($this-&gt;_id, $in_id);</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160; </div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error) {</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;            $this-&gt;error = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;error;</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;            $this-&gt;<a class="code" href="a00308.html#aa5e1bc5570c817cfe3ddeb67003d4f45">reload_from_db</a>();</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;            <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        }</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160; </div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00494">A_CO_DB_Table_Base\get_access_object()</a>, and <a class="el" href="a00149_source.html#l00479">A_CO_DB_Table_Base\reload_from_db()</a>.</p>
 <div class="dynheader">
@@ -1873,7 +1927,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="a00149_source.html#l00460">A_CO_DB_Table_Base\update_db()</a>, and <a class="el" href="a00173_source.html#l00895">user_can_write()</a>.</p>
+<p class="reference">References <a class="el" href="a00149_source.html#l00460">A_CO_DB_Table_Base\update_db()</a>, and <a class="el" href="a00173_source.html#l00920">user_can_write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1918,7 +1972,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="a00173_source.html#l00601">get_crypted_password()</a>, <a class="el" href="a00149_source.html#l00460">A_CO_DB_Table_Base\update_db()</a>, and <a class="el" href="a00173_source.html#l00895">user_can_write()</a>.</p>
+<p class="reference">References <a class="el" href="a00173_source.html#l00601">get_crypted_password()</a>, <a class="el" href="a00149_source.html#l00460">A_CO_DB_Table_Base\update_db()</a>, and <a class="el" href="a00173_source.html#l00920">user_can_write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2056,33 +2110,33 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented from <a class="el" href="a00308.html#a7d2537d7675ca572ad78096784fe4fe4">A_CO_DB_Table_Base</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00895">895</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
-<div class="fragment"><div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;                                     {</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        $ret = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        </div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="comment">// Only God can edit God.</span></div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">i_am_a_god</a>() &amp;&amp; !$this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;god_mode()) {</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;            $ids = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;get_security_ids();</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        </div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;            $my_write_item = intval($this-&gt;write_security_id);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        </div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            <span class="keywordflow">if</span> ((0 == $my_write_item) || $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;god_mode()) {</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;                $ret = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;            } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;                <span class="keywordflow">if</span> (isset($ids) &amp;&amp; is_array($ids) &amp;&amp; count($ids)) {</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                    $ret = in_array($my_write_item, $ids);</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;                }</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            }</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        </div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        }</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="a00173_source.html#l00920">920</a> of file <a class="el" href="a00173_source.html">co_security_login.class.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;                                     {</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        $ret = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;        </div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        <span class="comment">// Only God can edit God.</span></div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="a00340.html#a03304936652c2c606c411c7c6a0f0c7f">i_am_a_god</a>() &amp;&amp; !$this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;god_mode()) {</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;            $ids = $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;get_security_ids();</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;        </div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;            $my_write_item = intval($this-&gt;write_security_id);</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        </div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;            <span class="keywordflow">if</span> ((0 == $my_write_item) || $this-&gt;<a class="code" href="a00308.html#a8780b40e55827b90bb441671faec2a05">get_access_object</a>()-&gt;god_mode()) {</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;                $ret = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;            } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;                <span class="keywordflow">if</span> (isset($ids) &amp;&amp; is_array($ids) &amp;&amp; count($ids)) {</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                    $ret = in_array($my_write_item, $ids);</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;                }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;            }</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;        </div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;        <span class="keywordflow">return</span> $ret;</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        }</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="a00149_source.html#l00494">A_CO_DB_Table_Base\get_access_object()</a>, and <a class="el" href="a00173_source.html#l00667">i_am_a_god()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00924">delete_from_db()</a>, <a class="el" href="a00173_source.html#l00699">set_lang()</a>, and <a class="el" href="a00173_source.html#l00733">set_password_from_cleartext()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a00173_source.html#l00949">delete_from_db()</a>, <a class="el" href="a00173_source.html#l00699">set_lang()</a>, and <a class="el" href="a00173_source.html#l00733">set_password_from_cleartext()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

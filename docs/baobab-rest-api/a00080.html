@@ -103,7 +103,7 @@ $(document).ready(function(){initNavTree('a00080.html',''); initResizable(); });
 <p>The Baseline Plugin is a basic BASALT <a href="https://restfulapi.net">REST</a> Plugin; part of the "standard" set.</p>
 <p>You use this plugin to view and manage security tokens, list plugins, and do "non-denominational" searches on the BAOBAB server.</p>
 <h1>USAGE </h1>
-<p>This plugin is accessed by setting <code>"baseline"</code> as the Command in the <a href="https://restfulapi.net">REST</a> URI. There are a number of other aspects to the URI that will be explained: </p><pre class="fragment">{GET|POST} http[s]://{SERVER URL}/{json|xml|xsd|csv}/baseline/[{version|tokens|serverinfo|search[/?[search_radius= &amp; search_longitude= &amp; search_latitude=]|search_name=|search_tag0=|...|search_tag9=]|handlers/{IDS OF RESOURCES}]
+<p>This plugin is accessed by setting <code>"baseline"</code> as the Command in the <a href="https://restfulapi.net">REST</a> URI. There are a number of other aspects to the URI that will be explained: </p><pre class="fragment">{GET|POST} http[s]://{SERVER URL}/{json|xml|xsd|csv}/baseline/[{version|tokens|serverinfo|search[/?[search_radius= &amp; search_longitude= &amp; search_latitude=]|search_name=|search_tag0=|...|search_tag9=]|handlers|ping/{IDS OF RESOURCES}]
 </pre> <h2>SERVER URL </h2>
 <pre class="fragment">http[s]://{SERVER URL}/
 </pre><p> This is the base URL to the BAOBAB executable (which will eventually end up calling <code>entrypoint.php</code>).</p>
@@ -145,6 +145,11 @@ $(document).ready(function(){initNavTree('a00080.html',''); initResizable(); });
 <li><code>2000</code>...<code>2999</code> This is a "beta" release. It should be considered stable, tested, complete, but not yet approved for final release. This is usually when non-developers are asked to test the system.</li>
 <li><code>3000</code> or greater This is "release." It is considered tested, stable, and ready for release.</li>
 </ul>
+<h2>ping </h2>
+<pre class="fragment">{GET} http[s]://{SERVER URL}/{json|xml}/baseline/ping[/{CSV LIST OF IDS OF LOGINS}]
+</pre><p> This returns a simple list of IDs (if the current login has visibility), along with any remaining time (in seconds) for their login. If no list of IDs is supplied, then the response will be a single value, for the current login.</p>
+<p>If the login is inderminate, then the response time will be -1.</p>
+<p>If the login is expired, or otherwise invalid, the ID will not be included in the response.</p>
 <h2>tokens </h2>
 <pre class="fragment">{GET} http[s]://{SERVER URL}/{json|xml}/baseline/tokens
 </pre><p> This will return a simple array of integers, listing the security tokens available to the current logged-in user. Calling this when not logged in will result in a 403 (FORBIDDEN) error.</p>

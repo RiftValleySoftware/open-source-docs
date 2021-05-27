@@ -10,6 +10,7 @@ var a00200 =
     [ "_process_baseline_command", "a00200.html#a60ce04d2fc76ab876a428500dccb7dd8", null ],
     [ "_process_bulk_row", "a00200.html#a0c8258440777d1e27e88f57f55a9e2a4", null ],
     [ "_process_command", "a00200.html#a528297edc9fb3e5e3c8f2e9270621853", null ],
+    [ "_process_ping_command", "a00200.html#a1daa98964a634b41fef4edf4dc1f82ad", null ],
     [ "_process_serverinfo_command", "a00200.html#acd909d93bf248e9b07ff9cfdd28df9b9", null ],
     [ "_process_token_command", "a00200.html#af1b2c5aad7e4010614b891a8e47e469b", null ],
     [ "classes_managed", "a00200.html#acf55579d7a57662ed730a904867f4e9d", null ],

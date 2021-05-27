@@ -433,7 +433,7 @@ var sectionId = 'dynsection-0';
 <text text-anchor="start" x="505" y="-691" font-family="Helvetica,sans-Serif" font-size="10.00">+ set_personal_ids()</text>
 <text text-anchor="start" x="505" y="-680" font-family="Helvetica,sans-Serif" font-size="10.00">+ personal_ids()</text>
 <text text-anchor="start" x="505" y="-669" font-family="Helvetica,sans-Serif" font-size="10.00">+ get_crypted_password()</text>
-<text text-anchor="start" x="505" y="-658" font-family="Helvetica,sans-Serif" font-size="10.00">and 17 more...</text>
+<text text-anchor="start" x="505" y="-658" font-family="Helvetica,sans-Serif" font-size="10.00">and 18 more...</text>
 <text text-anchor="start" x="505" y="-647" font-family="Helvetica,sans-Serif" font-size="10.00"># _set_up_api_key()</text>
 <text text-anchor="start" x="505" y="-636" font-family="Helvetica,sans-Serif" font-size="10.00"># _default_setup()</text>
 <text text-anchor="start" x="505" y="-625" font-family="Helvetica,sans-Serif" font-size="10.00"># _build_parameter_array()</text>

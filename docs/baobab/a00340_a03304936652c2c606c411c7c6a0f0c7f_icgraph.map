@@ -1,10 +1,11 @@
 <map id="CO_Security_Login\i_am_a_god" name="CO_Security_Login\i_am_a_god">
-<area shape="rect" id="node1" title=" " alt="" coords="453,133,596,175"/>
+<area shape="rect" id="node1" title=" " alt="" coords="453,71,596,112"/>
 <area shape="rect" id="node2" href="$a00340.html#aecb158735e3a185c0857c44bf60f45f0" title=" " alt="" coords="245,71,402,112"/>
-<area shape="rect" id="node5" href="$a00340.html#aba256552040dd8af7196f0fea2a58609" title=" " alt="" coords="241,165,405,207"/>
-<area shape="rect" id="node3" href="$a00340.html#aa5c815210d09779bd16fc72ddd0fce59" title=" " alt="" coords="25,5,174,47"/>
-<area shape="rect" id="node4" href="$a00340.html#a5ec502fbeb3620816dbcf4868da637e8" title=" " alt="" coords="25,71,174,112"/>
-<area shape="rect" id="node6" href="$a00340.html#ae927630811dae37fddc34b16878c63fd" title=" " alt="" coords="12,136,187,177"/>
-<area shape="rect" id="node7" href="$a00340.html#a061f896c69dc8a8dd3d9ee793b91ddc7" title=" " alt="" coords="5,202,193,229"/>
-<area shape="rect" id="node8" href="$a00340.html#ac4f0c16cb8cf1e2151451bf4d5cb2238" title=" " alt="" coords="12,253,187,295"/>
+<area shape="rect" id="node3" href="$a00340.html#ae37929d54934c063f8f78a3527cbbbba" title=" " alt="" coords="21,5,178,47"/>
+<area shape="rect" id="node6" href="$a00340.html#aba256552040dd8af7196f0fea2a58609" title=" " alt="" coords="241,231,405,272"/>
+<area shape="rect" id="node4" href="$a00340.html#aa5c815210d09779bd16fc72ddd0fce59" title=" " alt="" coords="25,71,174,112"/>
+<area shape="rect" id="node5" href="$a00340.html#a5ec502fbeb3620816dbcf4868da637e8" title=" " alt="" coords="25,136,174,177"/>
+<area shape="rect" id="node7" href="$a00340.html#ae927630811dae37fddc34b16878c63fd" title=" " alt="" coords="12,201,187,243"/>
+<area shape="rect" id="node8" href="$a00340.html#a061f896c69dc8a8dd3d9ee793b91ddc7" title=" " alt="" coords="5,267,193,294"/>
+<area shape="rect" id="node9" href="$a00340.html#ac4f0c16cb8cf1e2151451bf4d5cb2238" title=" " alt="" coords="12,319,187,360"/>
 </map>

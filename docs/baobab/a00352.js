@@ -29,6 +29,7 @@ var a00352 =
     [ "get_multiple_data_records_by_id", "a00352.html#a7cbae1ac57c8eb7c673dc85f6eed6e6c", null ],
     [ "get_multiple_security_records_by_id", "a00352.html#a34c23aea84d5c32e600c512167c3497d", null ],
     [ "get_personal_security_ids", "a00352.html#afdbd62c65cc83a1abbdbce6634b51dda", null ],
+    [ "get_remaining_time", "a00352.html#a52f87f59f978c70b524921f7ff25f5ea", null ],
     [ "get_security_access_class_by_id", "a00352.html#ad9970096916433811995f56dd31aae3a", null ],
     [ "get_security_ids", "a00352.html#afe9f0a632b2c80e162582cd2ed0d7d3d", null ],
     [ "get_single_data_record_by_id", "a00352.html#af195ce9db13af34048a99abfc0423d2e", null ],

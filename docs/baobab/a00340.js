@@ -14,6 +14,7 @@ var a00340 =
     [ "get_crypted_password", "a00340.html#a615bc63ad75ff08982eeb0c1a2da7243", null ],
     [ "get_lang", "a00340.html#a23b65591a454789d226538ffce4ddc4e", null ],
     [ "get_logins_that_have_any_of_my_ids", "a00340.html#ac22dec6e0f6635875be19b61902c0a29", null ],
+    [ "get_remaining_time", "a00340.html#ae37929d54934c063f8f78a3527cbbbba", null ],
     [ "get_user_object", "a00340.html#a30db2d11dd81390f5a671bcd32835544", null ],
     [ "i_am_a_god", "a00340.html#a03304936652c2c606c411c7c6a0f0c7f", null ],
     [ "ids", "a00340.html#adb0183db5cc330e1ef04ecb2f3b0beb4", null ],
