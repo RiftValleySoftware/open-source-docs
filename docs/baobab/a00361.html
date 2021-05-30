@@ -179,8 +179,10 @@ $(document).ready(function(){initNavTree('a00361.html',''); initResizable(); });
 </ul>
 <p>This is only called once, and cannot be combined with any other commands. The only operation permitted is a simple login.</p>
 <p>The response will be a simple string. This will be a 32-character (or 40-character, for "God" logins) random token that should be applied in the username AND password sections of the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">HTTP authorization header</a> header of subsequent calls.</p>
-<p><b>Logout Call:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/logout
-</pre><p> This is a call that should be made while a valid API key has been assigned to a user. It should be made with the user's valid API key in the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">HTTP authorization header</a>, and will terminate the API key, requiring subsequent calls by the same user to perform another login.</p>
+<p><b>Logout Call:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/logout[?login_server_secret={SERVER SECRET STRING}&amp;login_api_key={API KEY STRING}]
+</pre><p> This is a call that should be made while a valid API key has been assigned to a user. It should be made with the user's valid API key in the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">HTTP authorization header</a>, or auth parameters, and will terminate the API key, requiring subsequent calls by the same user to perform another login.</p>
+<p><b>Use Auth Params Test:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/use_auth_params
+</pre><p> This simply returns 1, if the caller should send authentication as query parameters (for example, if the server is using FastCGI), or 0, if Basic Auth headers are sufficient.</p>
 <p><b>Standard REST Calls:</b> </p><pre class="fragment">{GET | POST | PUT | DELETE} http[s]://{SERVER URL}/{RESPONSE TYPE}/{PLUGIN}/[{COMMAND[S]}][?][{QUERY PARAMETER NAME}[={QUERY PARAMETER VALUE}]]
 </pre><ul>
 <li><p class="startli"><code>{RESPONSE TYPE}</code></p>
