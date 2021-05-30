@@ -231,15 +231,27 @@ if (g_server_secret &amp;&amp; g_api_key) {
 </ul>
 <p>All of these resources can have geographic locations (long/lat), as well as the ability to aggregate other resources (of any type).</p>
 <p>It is possible for a resource to aggregate resources to which the current user has no permissions. In these cases, the aggregated resources will be "invisible" to the user.</p>
-<h1>LOGGING IN/OUT </h1>
-<p>You cannot provide login credentials to resource access/modification calls. You must first make a simple <code>"login"</code> call, get an API Key, and then use that API Key and the Server Secret in the <a href="https://en.wikipedia.org/wiki/Basic_access_authentication">Basic Authentication HTTP Header</a> in subsequent calls.</p>
-<p>The server administrator has the option to require that the initial login call always be SSL (this should always be the case, but it is an option); regardless of whether or not the regular calls are SSL.</p>
-<p>You make a login call in this fashion: </p><pre class="fragment">{GET} http[s]://{SERVER URL}/login?login_id=&lt;YOUR LOGIN ID&gt;&amp;password=&lt;YOUR PASSWORD&gt;
-</pre><p> Where <code>"{SERVER URL}"</code> is the root URL to the BAOBAB server, and the <code>"login_id="</code> and <code>"password="</code> query arguments reference the user string login ID and password (not the Server Secret or API Key).</p>
-<p>The response from this call is a simple string, which will be the API Key. Once an API Key is generated, its "clock" starts ticking, and it will not be reset. Also, the server may be configured to prevent the same login from receiving a new API Key while one is still active, so it is important to retain this response.</p>
-<p>You log out by calling the logout call, like so: </p><pre class="fragment">{GET} http[s]://{SERVER URL}/logout
-</pre><p> This should be accompanied by the authorization header. The requirement for SSL is the one for regular interactions (independent of login). Once this has been successfully called, the API Key is no longer valid, and can be disposed of.</p>
+<h1>LOGGING IN AND OUT </h1>
+<p>When you call the <a href="https://restfulapi.net">REST</a> API, you will do so in the standard fashion, where you define the method (<a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html">HTTP 1.1 header</a>), and specify the resource in a URI, which can include query data.</p>
+<p><b>Initial Login Call:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/login?login_id={LOGIN ID STRING}&amp;password={PASSWORD STRING}
+</pre><p> The {SERVER URL} is the URL path that specifies the BAOBAB server <a href="https://restfulapi.net">REST</a> entrypoint (like <code>"example.com/rest_api/baobab/entrypoint.php"</code>).</p>
+<p>In this instance, you directly call the <a href="https://restfulapi.net">REST</a> entrypoint, specifying only <code>"login"</code> (which also means that you can't create a plugin named "login"). The query parameters are:</p>
+<p>The query parameters are:</p>
+<ul>
+<li><p class="startli"><code>login_id</code></p>
+<p class="startli">This is the user's login ID (a simple string)</p>
+</li>
+<li><p class="startli"><code>password</code></p>
+<p class="startli">This is the cleartext password for that login.</p>
+</li>
+</ul>
+<p>This is only called once, and cannot be combined with any other commands. The only operation permitted is a simple login.</p>
+<p>The response will be a simple string. This will be a 32-character (or 40-character, for "God" logins) random token that should be applied in the username AND password sections of the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">HTTP authorization header</a> header of subsequent calls.</p>
+<p><b>Logout Call:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/logout[?login_server_secret={SERVER SECRET STRING}&amp;login_api_key={API KEY STRING}]
+</pre><p> This is a call that should be made while a valid API key has been assigned to a user. It should be made with the user's valid API key in the <a href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8">HTTP authorization header</a>, or auth parameters, and will terminate the API key, requiring subsequent calls by the same user to perform another login.</p>
 <p><b>NOTE:</b> Logout does not return <a href="https://httpstatuses.com/200">200 (OK)</a> as an HTTP Status. Instead, it returns <a href="https://httpstatuses.com/205">205 (Reset Content)</a>. This indicates to the recipient that there is a different server context, and they should reset their content.</p>
+<p><b>Use Auth Params Test:</b> </p><pre class="fragment">{GET} http[s]://{SERVER URL}/use_auth_params
+</pre><p> This simply returns 1, if the caller should send authentication as query parameters (for example, if the server is using FastCGI), or 0, if Basic Auth headers are sufficient.</p>
 <h1>DATA FORMATS </h1>
 <p>BAOBAB will respond with four different formats:</p>
 <ul>
