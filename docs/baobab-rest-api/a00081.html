@@ -261,6 +261,9 @@ $(document).ready(function(){initNavTree('a00081.html',''); initResizable(); });
 <p>You can also create standalone logins, by specifying the <code>"logins"</code> path component, and either appending the new login ID string to the component, or specifying it with a <code>"login_id="</code> query argument: </p><pre class="fragment">{POST} http[s]://example.com/entrypoint.php/json/people/logins/SomeRandomLoginString
 {POST} http[s]://example.com/entrypoint.php/json/people/logins?login_id=SomeRandomLoginString
 </pre><p> Will both create a simple, default login with a login ID string of <code>"SomeRandomLoginString"</code>.</p>
+<p><b>PERSONAL TOKENS</b></p>
+<p>We can initialize a user/login pair with Personal Tokens. This is done by adding the following query parameter: </p><pre class="fragment">number_of_personal_tokens=&lt;NUMBER OF TOKENS&gt;
+</pre><p> Where <code>&lt;NUMBER OF TOKENS&gt;</code> is a positive integer. The user will be created with that many personal tokens, and the manager that created the user will not have access to these tokens.</p>
 <h2>PUT CALLS </h2>
 <p>Use PUT to update existing resources. The modifications will be made to the entire found set of resources (so you are not just restricted to one at a time, like POST).</p>
 <h2>SPECIAL PUT CALLS FOR PERSONAL TOKENS </h2>
